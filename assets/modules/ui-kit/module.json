@@ -1,0 +1,12 @@
+{
+  "name": "ui-kit",
+  "title": "UI kit — components, behaviours and gallery",
+  "version": "1.0.0",
+  "description": "Token- and DNA-driven component library (<p>-ui.css + accessible <p>-ui.js), three themes, documented gallery with previews and React wrappers.",
+  "depends": ["icons"],
+  "order": 40,
+  "run": ["python3", "build.py"],
+  "outputs": ["SOURCE/CSS/{p}-ui.css", "SOURCE/JS/{p}-ui.js", "SOURCE/JSON/ui-kit.json", "UI-DESIGN-SYSTEM/components/", "UI-DESIGN-SYSTEM/react/", "UI-DESIGN-SYSTEM/README.md"],
+  "lite": true,
+  "seconds": 35
+}

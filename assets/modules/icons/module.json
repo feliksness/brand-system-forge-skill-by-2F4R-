@@ -1,0 +1,12 @@
+{
+  "name": "icons",
+  "title": "Icon system",
+  "version": "1.0.0",
+  "description": "Brand-neutral geometric icon library (308 icons, 33 sets) drawn in the brand's design DNA — stroke, caps, joins, corner roles, faceted/organic curves — with SVG files, sprite, <G>.icon() runtime, icons.json, gallery and specimen previews.",
+  "depends": [],
+  "order": 20,
+  "run": ["python3", "build.py"],
+  "outputs": ["ICONS/", "SOURCE/JS/{p}-icons.js", "SOURCE/JSON/icons.json"],
+  "lite": true,
+  "seconds": 15
+}

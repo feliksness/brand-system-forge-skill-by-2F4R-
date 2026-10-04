@@ -1,0 +1,310 @@
+{
+ "key": "health-wellness",
+ "title": "Health, care & wellness",
+ "fits": [
+  "clinic",
+  "hospital",
+  "dental practice",
+  "pharmacy",
+  "health app",
+  "fitness studio",
+  "spa",
+  "therapy practice",
+  "beauty clinic"
+ ],
+ "audiences": [
+  "patients and clients",
+  "families and carers",
+  "clinicians",
+  "partners and insurers"
+ ],
+ "voice": {
+  "traits": [
+   "calm",
+   "reassuring",
+   "clear",
+   "expert",
+   "kind"
+  ],
+  "avoid": [
+   "fear-based messaging",
+   "medical jargon without explanation",
+   "miracle claims"
+  ],
+  "cta": [
+   "Book an appointment",
+   "Find a specialist",
+   "Call us"
+  ]
+ },
+ "colour": {
+  "strategy": "Calm, high-legibility: generous paper, gentle tints of the primary; accent for wayfinding and status, never alarming red as brand.",
+  "dark_theme": "supported",
+  "data": "sequential + status"
+ },
+ "type": {
+  "display": [
+   "round",
+   "friendly",
+   "soft",
+   "geometric",
+   "clean",
+   "modern"
+  ],
+  "sans": [
+   "readable",
+   "friendly",
+   "accessible",
+   "clean"
+  ],
+  "mono": false,
+  "serif": false,
+  "hand": false
+ },
+ "dna_bias": {
+  "density": "airy",
+  "display_case": "sentence",
+  "motion_energy": 0.3,
+  "imagery": "bright, natural, real staff and patients, calm spaces"
+ },
+ "labels": {
+  "units": "Departments",
+  "offerings": "Services",
+  "projects": "Stories",
+  "events": "Classes",
+  "posts": "Health tips",
+  "people": "Specialists",
+  "cta_primary": "Book an appointment",
+  "cta_secondary": "Our services"
+ },
+ "pages": [
+  "home",
+  "offerings",
+  "offering-detail",
+  "units",
+  "people",
+  "person",
+  "book",
+  "prices",
+  "patient-info",
+  "insurance",
+  "about",
+  "posts",
+  "post",
+  "faq",
+  "contact",
+  "privacy"
+ ],
+ "icons": [
+  "core",
+  "ui",
+  "health",
+  "body",
+  "care",
+  "location",
+  "communication",
+  "accessibility"
+ ],
+ "social": [
+  "instagram-post",
+  "instagram-portrait",
+  "instagram-story",
+  "instagram-carousel",
+  "linkedin-post",
+  "linkedin-banner",
+  "facebook-cover",
+  "x-post",
+  "youtube-thumbnail",
+  "og-image",
+  "avatar"
+ ],
+ "post_types": [
+  "health-tip",
+  "service-intro",
+  "specialist-intro",
+  "faq",
+  "opening-hours",
+  "awareness-day",
+  "testimonial"
+ ],
+ "presentation": [
+  "clinic-intro",
+  "patient-education",
+  "partner-pitch"
+ ],
+ "print": [
+  "business-card",
+  "appointment-card",
+  "letterhead",
+  "prescription-pad",
+  "leaflet",
+  "poster",
+  "brochure",
+  "consent-form"
+ ],
+ "documents": [
+  "invoice",
+  "referral-letter",
+  "patient-guide",
+  "report"
+ ],
+ "events": [
+  "wayfinding",
+  "room-sign",
+  "badge",
+  "rollup-banner"
+ ],
+ "merch": [
+  "tote",
+  "water-bottle",
+  "tshirt",
+  "towel",
+  "sticker"
+ ],
+ "environment": [
+  "reception-sign",
+  "wayfinding",
+  "interior-wall",
+  "storefront",
+  "window-graphic"
+ ],
+ "dataviz": [
+  "kpi",
+  "line",
+  "progress",
+  "bar",
+  "donut"
+ ],
+ "modules": {
+  "logo-system": true,
+  "icons": true,
+  "patterns-graphics": true,
+  "ui-kit": true,
+  "motion": true,
+  "charts": true,
+  "social": true,
+  "presentation": true,
+  "print-docs": true,
+  "events-merch-env": true,
+  "website": true,
+  "brand-book": true
+ },
+ "sample": {
+  "tagline": "Care that keeps you moving.",
+  "mission": "Make expert care easy to reach, easy to understand and kind.",
+  "values": [
+   {
+    "name": "Kindness",
+    "text": "Every visit, every person.",
+    "icon": "heart"
+   },
+   {
+    "name": "Expertise",
+    "text": "Specialists who keep learning.",
+    "icon": "award"
+   },
+   {
+    "name": "Clarity",
+    "text": "Plain words, clear prices.",
+    "icon": "eye"
+   },
+   {
+    "name": "Access",
+    "text": "Care that fits your life.",
+    "icon": "clock"
+   }
+  ],
+  "units": [
+   {
+    "key": "family",
+    "name": "Family medicine",
+    "summary": "Care for every age.",
+    "icon": "people"
+   },
+   {
+    "key": "physio",
+    "name": "Physiotherapy",
+    "summary": "Recovery and movement.",
+    "icon": "move"
+   },
+   {
+    "key": "dental",
+    "name": "Dental",
+    "summary": "Healthy smiles.",
+    "icon": "tooth"
+   },
+   {
+    "key": "lab",
+    "name": "Laboratory",
+    "summary": "Fast, accurate results.",
+    "icon": "flask"
+   }
+  ],
+  "offerings": [
+   {
+    "key": "checkup",
+    "name": "Annual check-up",
+    "unit": "family",
+    "summary": "45-minute full review.",
+    "price": "90"
+   },
+   {
+    "key": "kids",
+    "name": "Children’s clinic",
+    "unit": "family",
+    "summary": "Paediatric care, weekdays.",
+    "price": "70"
+   },
+   {
+    "key": "sports",
+    "name": "Sports injury rehab",
+    "unit": "physio",
+    "summary": "Assessment + 6 sessions.",
+    "price": "320"
+   },
+   {
+    "key": "hygiene",
+    "name": "Dental hygiene",
+    "unit": "dental",
+    "summary": "Cleaning and advice.",
+    "price": "60"
+   },
+   {
+    "key": "blood",
+    "name": "Blood tests",
+    "unit": "lab",
+    "summary": "Results in 24 hours.",
+    "price": "35"
+   },
+   {
+    "key": "telehealth",
+    "name": "Video consultation",
+    "unit": "family",
+    "summary": "Same-day appointments.",
+    "price": "45"
+   }
+  ],
+  "stats": [
+   {
+    "label": "Patients per year",
+    "value": "18,000",
+    "unit": ""
+   },
+   {
+    "label": "Specialists",
+    "value": "42",
+    "unit": ""
+   },
+   {
+    "label": "Satisfaction",
+    "value": "96",
+    "unit": "%"
+   },
+   {
+    "label": "Avg. wait",
+    "value": "2",
+    "unit": "days"
+   }
+  ]
+ }
+}

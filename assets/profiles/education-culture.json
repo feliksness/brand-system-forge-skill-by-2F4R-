@@ -1,0 +1,324 @@
+{
+ "key": "education-culture",
+ "title": "Education, culture & events",
+ "fits": [
+  "school",
+  "university",
+  "course provider",
+  "academy",
+  "museum",
+  "gallery",
+  "library",
+  "festival",
+  "theatre",
+  "kids club"
+ ],
+ "audiences": [
+  "learners and visitors",
+  "parents",
+  "educators and artists",
+  "partners and funders",
+  "press"
+ ],
+ "voice": {
+  "traits": [
+   "curious",
+   "encouraging",
+   "clear",
+   "lively",
+   "inclusive"
+  ],
+  "avoid": [
+   "condescension",
+   "academic jargon on public pages",
+   "stock graduation photos"
+  ],
+  "cta": [
+   "Enrol now",
+   "Get tickets",
+   "Explore the programme"
+  ]
+ },
+ "colour": {
+  "strategy": "System for many programmes: primary + neutrals for the institution; a coded secondary set for programmes/ages/genres within contrast rules.",
+  "dark_theme": "supported",
+  "data": "categorical by programme"
+ },
+ "type": {
+  "display": [
+   "art",
+   "culture",
+   "editorial",
+   "expressive",
+   "experimental",
+   "playful",
+   "friendly"
+  ],
+  "sans": [
+   "readable",
+   "education",
+   "friendly",
+   "accessible"
+  ],
+  "mono": false,
+  "serif": false,
+  "hand": false
+ },
+ "dna_bias": {
+  "density": "balanced",
+  "display_case": "upper",
+  "motion_energy": 0.6,
+  "imagery": "learners in action, works and spaces, process"
+ },
+ "labels": {
+  "units": "Programmes",
+  "offerings": "Courses",
+  "projects": "Showcase",
+  "events": "What’s on",
+  "posts": "News",
+  "people": "Faculty",
+  "cta_primary": "Enrol now",
+  "cta_secondary": "Explore programmes"
+ },
+ "pages": [
+  "home",
+  "units",
+  "offerings",
+  "offering-detail",
+  "events",
+  "event-detail",
+  "admissions",
+  "people",
+  "about",
+  "news",
+  "post",
+  "visit",
+  "support-us",
+  "contact",
+  "privacy"
+ ],
+ "icons": [
+  "core",
+  "ui",
+  "education",
+  "culture",
+  "people",
+  "time",
+  "location",
+  "accessibility"
+ ],
+ "social": [
+  "instagram-post",
+  "instagram-portrait",
+  "instagram-story",
+  "instagram-carousel",
+  "linkedin-post",
+  "linkedin-banner",
+  "facebook-cover",
+  "x-post",
+  "youtube-thumbnail",
+  "og-image",
+  "avatar"
+ ],
+ "post_types": [
+  "course-launch",
+  "event",
+  "student-story",
+  "quote",
+  "deadline",
+  "behind-the-scenes",
+  "carousel-explainer"
+ ],
+ "presentation": [
+  "open-day",
+  "course-intro",
+  "lecture",
+  "partner-pitch"
+ ],
+ "print": [
+  "business-card",
+  "letterhead",
+  "certificate",
+  "diploma",
+  "poster",
+  "flyer",
+  "programme-booklet",
+  "ticket",
+  "timetable",
+  "student-id"
+ ],
+ "documents": [
+  "syllabus",
+  "report-card",
+  "lesson-plan",
+  "invoice",
+  "newsletter"
+ ],
+ "events": [
+  "badge",
+  "lanyard",
+  "ticket",
+  "wristband",
+  "wayfinding",
+  "backdrop",
+  "rollup-banner",
+  "stage-screen"
+ ],
+ "merch": [
+  "tshirt",
+  "hoodie",
+  "tote",
+  "sticker",
+  "notebook",
+  "pin",
+  "water-bottle",
+  "backpack"
+ ],
+ "environment": [
+  "entrance-sign",
+  "wayfinding",
+  "classroom-wall",
+  "banner-flag",
+  "window-graphic"
+ ],
+ "dataviz": [
+  "kpi",
+  "bar",
+  "timeline",
+  "progress",
+  "donut",
+  "calendar"
+ ],
+ "modules": {
+  "logo-system": true,
+  "icons": true,
+  "patterns-graphics": true,
+  "ui-kit": true,
+  "motion": true,
+  "charts": true,
+  "social": true,
+  "presentation": true,
+  "print-docs": true,
+  "events-merch-env": true,
+  "website": true,
+  "brand-book": true
+ },
+ "sample": {
+  "tagline": "Learn by making.",
+  "mission": "Give every learner the tools, confidence and community to create.",
+  "values": [
+   {
+    "name": "Curiosity",
+    "text": "Questions first.",
+    "icon": "spark"
+   },
+   {
+    "name": "Making",
+    "text": "Learn by doing.",
+    "icon": "tool"
+   },
+   {
+    "name": "Belonging",
+    "text": "Everyone has a seat.",
+    "icon": "people"
+   },
+   {
+    "name": "Play",
+    "text": "Serious fun.",
+    "icon": "smile"
+   }
+  ],
+  "units": [
+   {
+    "key": "juniors",
+    "name": "Juniors 7–10",
+    "summary": "First steps in making.",
+    "icon": "star"
+   },
+   {
+    "key": "teens",
+    "name": "Teens 11–16",
+    "summary": "Real projects, real tools.",
+    "icon": "bolt"
+   },
+   {
+    "key": "family",
+    "name": "Family days",
+    "summary": "Learn together.",
+    "icon": "people"
+   },
+   {
+    "key": "educators",
+    "name": "For educators",
+    "summary": "Training and resources.",
+    "icon": "education"
+   }
+  ],
+  "offerings": [
+   {
+    "key": "robotics",
+    "name": "Robotics basics",
+    "unit": "juniors",
+    "summary": "10 weeks · Saturdays.",
+    "price": "120"
+   },
+   {
+    "key": "games",
+    "name": "Make a game",
+    "unit": "teens",
+    "summary": "8 weeks · after school.",
+    "price": "140"
+   },
+   {
+    "key": "web",
+    "name": "Web studio",
+    "unit": "teens",
+    "summary": "Build and launch a site.",
+    "price": "140"
+   },
+   {
+    "key": "stop-motion",
+    "name": "Stop-motion",
+    "unit": "juniors",
+    "summary": "Film with clay and phones.",
+    "price": "90"
+   },
+   {
+    "key": "maker-day",
+    "name": "Maker Saturday",
+    "unit": "family",
+    "summary": "Drop-in, all ages.",
+    "price": "0"
+   },
+   {
+    "key": "teach-code",
+    "name": "Teaching code",
+    "unit": "educators",
+    "summary": "CPD course, 3 days.",
+    "price": "250"
+   }
+  ],
+  "stats": [
+   {
+    "label": "Learners this year",
+    "value": "1,240",
+    "unit": ""
+   },
+   {
+    "label": "Volunteer mentors",
+    "value": "85",
+    "unit": ""
+   },
+   {
+    "label": "Projects shipped",
+    "value": "3,600",
+    "unit": ""
+   },
+   {
+    "label": "Scholarship places",
+    "value": "30",
+    "unit": "%"
+   }
+  ]
+ }
+}

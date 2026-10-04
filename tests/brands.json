@@ -1,0 +1,19 @@
+{
+  "note": "Fictional test brands — one per logo type / geometry / profile. Used by tests/run_tests.py and when developing modules.",
+  "brands": [
+    {"key": "northwind", "logo": "logos/northwind.png", "name": "Northwind Studio", "profile": "professional-services", "languages": "en,de", "descriptor": "Design consultancy",
+     "expect": {"logo_type": "combination", "geometry": "angular", "complexity": "flat"}},
+    {"key": "orbit", "logo": "logos/orbit.png", "name": "Orbit Health", "profile": "health-wellness", "languages": "en,es", "descriptor": "Family clinics",
+     "expect": {"logo_type": "combination", "geometry": "round", "complexity": "flat"}},
+    {"key": "luma", "logo": "logos/luma.png", "name": "Maison Luma", "profile": "hospitality-food", "languages": "en,fr", "descriptor": "Restaurant & bakery",
+     "expect": {"logo_type": "wordmark", "complexity": "flat"}},
+    {"key": "kcc", "logo": "logos/kcc.png", "name": "Kids Code Club", "profile": "education-culture", "languages": "en,ru", "local_name": "Клуб юных программистов",
+     "expect": {"logo_type": "emblem", "geometry": "round", "complexity": "flat"}},
+    {"key": "peakforge", "logo": "logos/peakforge.png", "name": "Peakforge", "profile": "industrial-energy", "languages": "en,hy", "descriptor": "Engineering & Energy", "local_name": "Փիքֆորջ",
+     "expect": {"logo_type": "symbol", "geometry": "angular", "complexity": "faceted"}}
+  ],
+  "analysis_only": [
+    {"logo": "logos/leaf-line.png", "expect": {"logo_type": "symbol", "complexity": "line"}},
+    {"logo": "logos/glow.png", "expect": {"logo_type": "symbol", "geometry": "round", "complexity": "gradient"}}
+  ]
+}

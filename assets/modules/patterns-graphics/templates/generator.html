@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="{{LANG}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Graphic generator — {{BRAND_NAME}}</title>
+<meta name="description" content="Compose on-brand graphics from the {{BRAND_NAME}} pattern system: pattern, colourway, seed, size, mark and headline. Exports PNG and SVG offline.">
+<link rel="stylesheet" href="../../SOURCE/CSS/{{p}}-core.css">
+<link rel="stylesheet" href="generator.css">
+</head>
+<body class="gn">
+<a class="{{p}}-skip-link" href="#gn-panel">Skip to controls</a>
+<header class="gn-bar">
+  <div class="gn-brand"><span class="gn-mark" id="gn-mark" aria-hidden="true"></span><span class="gn-name">{{BRAND_NAME}}</span><span class="gn-sub {{p}}-label">Graphic generator</span></div>
+  <nav class="gn-nav" aria-label="Graphic language">
+    <a href="../README.md">Graphics README</a><a href="../../PATTERNS/README.md">Patterns</a><a href="../../PHOTOGRAPHY/README.md">Photography</a>
+  </nav>
+</header>
+<main class="gn-main">
+  <section class="gn-stage" aria-label="Preview">
+    <div class="gn-art" id="gn-art" role="img" aria-label="Generated graphic preview"></div>
+    <p class="gn-meta {{p}}-label"><span id="gn-dims"></span><span id="gn-recipe"></span></p>
+  </section>
+  <aside class="gn-panel" id="gn-panel" aria-label="Controls">
+    <div class="gn-block">
+      <label class="gn-k" for="i-pattern">Pattern</label>
+      <select id="i-pattern"></select>
+      <p class="gn-hint" id="gn-pattern-note"></p>
+    </div>
+    <fieldset class="gn-block"><legend class="gn-k">Colourway</legend><div class="gn-seg" id="gn-cw"></div></fieldset>
+    <fieldset class="gn-block"><legend class="gn-k">Layout</legend><div class="gn-seg" id="gn-mode"></div></fieldset>
+    <div class="gn-block gn-row2">
+      <div><label class="gn-k" for="i-seed">Seed</label><input id="i-seed" type="number" min="0" max="99999" step="1" inputmode="numeric"></div>
+      <div class="gn-end"><button type="button" class="gn-btn" id="b-seed">New seed</button></div>
+    </div>
+    <div class="gn-block">
+      <label class="gn-k" for="i-format">Format</label>
+      <select id="i-format"></select>
+      <div class="gn-row2 gn-custom" id="gn-custom"><div><label class="gn-k" for="i-w">Width px</label><input id="i-w" type="number" min="200" max="6000" step="10"></div><div><label class="gn-k" for="i-h">Height px</label><input id="i-h" type="number" min="200" max="6000" step="10"></div></div>
+    </div>
+    <div class="gn-block">
+      <label class="gn-k" for="i-scale">Pattern scale <output id="o-scale" for="i-scale"></output></label>
+      <input id="i-scale" type="range" min="40" max="250" step="5">
+    </div>
+    <div class="gn-block">
+      <label class="gn-k" for="i-copy">Headline from content</label>
+      <select id="i-copy"></select>
+      <label class="gn-k gn-mt" for="i-eyebrow">Eyebrow</label>
+      <input id="i-eyebrow" type="text" maxlength="60" autocomplete="off">
+      <label class="gn-k gn-mt" for="i-head">Headline</label>
+      <textarea id="i-head" rows="2" maxlength="140"></textarea>
+    </div>
+    <fieldset class="gn-block"><legend class="gn-k">Mark</legend><div class="gn-seg" id="gn-markpos"></div></fieldset>
+    <div class="gn-block">
+      <div class="gn-export"><button type="button" class="gn-btn gn-btn--primary" id="b-png">Export PNG</button><button type="button" class="gn-btn" id="b-svg">Export SVG</button><button type="button" class="gn-btn" id="b-link">Copy link</button></div>
+      <p class="gn-status" id="gn-status" role="status" aria-live="polite"></p>
+      <input class="gn-linkbox" id="gn-linkbox" type="text" readonly aria-label="Link to this recipe" hidden>
+    </div>
+    <p class="gn-foot">Colours, shapes and type come from the brand system only. Same recipe (link) → same image. Keep text in the calm zone; the mark keeps its clear space.{{SAMPLE_NOTE}}</p>
+  </aside>
+</main>
+<script src="../../SOURCE/JS/mark-data.js"></script>
+<script src="../../SOURCE/JS/wordmark-data.js"></script>
+<script src="../../SOURCE/JS/dna-data.js"></script>
+<script src="../../SOURCE/JS/content-data.js"></script>
+<script src="../../SOURCE/JS/{{p}}-mark.js"></script>
+<script src="../../SOURCE/JS/{{p}}-graphics.js"></script>
+<script src="fonts-embed.js"></script>
+<script src="generator.js"></script>
+</body>
+</html>

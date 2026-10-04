@@ -1,0 +1,305 @@
+{
+ "key": "retail-ecommerce",
+ "title": "Retail, consumer brand, e-commerce",
+ "fits": [
+  "shop",
+  "D2C brand",
+  "fashion",
+  "beauty products",
+  "homeware",
+  "marketplace",
+  "consumer goods"
+ ],
+ "audiences": [
+  "shoppers",
+  "fans and community",
+  "retail partners",
+  "press"
+ ],
+ "voice": {
+  "traits": [
+   "lively",
+   "confident",
+   "sensory",
+   "witty",
+   "direct"
+  ],
+  "avoid": [
+   "generic superlatives",
+   "dark patterns",
+   "fake scarcity"
+  ],
+  "cta": [
+   "Shop now",
+   "Discover",
+   "Add to bag"
+  ]
+ },
+ "colour": {
+  "strategy": "Expressive: primary and accent can lead campaigns; neutral product backdrops; seasonal accents allowed inside the system.",
+  "dark_theme": "optional",
+  "data": "minimal"
+ },
+ "type": {
+  "display": [
+   "expressive",
+   "bold",
+   "playful",
+   "contemporary",
+   "fashion",
+   "poster",
+   "wide"
+  ],
+  "sans": [
+   "friendly",
+   "clean",
+   "modern",
+   "readable"
+  ],
+  "mono": false,
+  "serif": false,
+  "hand": false
+ },
+ "dna_bias": {
+  "density": "dense",
+  "display_case": "upper",
+  "motion_energy": 0.8,
+  "imagery": "product on colour, lifestyle, texture close-ups"
+ },
+ "labels": {
+  "units": "Collections",
+  "offerings": "Products",
+  "projects": "Lookbook",
+  "events": "Drops",
+  "posts": "Journal",
+  "people": "Team",
+  "cta_primary": "Shop now",
+  "cta_secondary": "Discover"
+ },
+ "pages": [
+  "home",
+  "units",
+  "offerings",
+  "offering-detail",
+  "cart",
+  "about",
+  "journal",
+  "post",
+  "stores",
+  "faq",
+  "contact",
+  "shipping-returns",
+  "privacy"
+ ],
+ "icons": [
+  "core",
+  "ui",
+  "commerce",
+  "delivery",
+  "social",
+  "product-care"
+ ],
+ "social": [
+  "instagram-post",
+  "instagram-portrait",
+  "instagram-story",
+  "instagram-carousel",
+  "linkedin-post",
+  "linkedin-banner",
+  "facebook-cover",
+  "x-post",
+  "youtube-thumbnail",
+  "og-image",
+  "avatar",
+  "pinterest-pin",
+  "tiktok-cover"
+ ],
+ "post_types": [
+  "product-hero",
+  "new-drop",
+  "sale",
+  "lookbook",
+  "ugc-quote",
+  "how-to",
+  "giveaway",
+  "carousel-explainer"
+ ],
+ "presentation": [
+  "brand-intro",
+  "wholesale-lookbook",
+  "campaign-plan"
+ ],
+ "print": [
+  "business-card",
+  "packaging-label",
+  "hang-tag",
+  "thank-you-card",
+  "gift-card",
+  "poster",
+  "flyer",
+  "shopping-bag",
+  "tissue-pattern"
+ ],
+ "documents": [
+  "invoice",
+  "packing-slip",
+  "line-sheet",
+  "press-release"
+ ],
+ "events": [
+  "pop-up-signage",
+  "shelf-talker",
+  "window-display",
+  "price-tag"
+ ],
+ "merch": [
+  "tote",
+  "tshirt",
+  "sticker",
+  "mug",
+  "gift-box",
+  "shopping-bag"
+ ],
+ "environment": [
+  "storefront",
+  "window-graphic",
+  "shop-interior",
+  "delivery-vehicle"
+ ],
+ "dataviz": [
+  "kpi",
+  "bar"
+ ],
+ "modules": {
+  "logo-system": true,
+  "icons": true,
+  "patterns-graphics": true,
+  "ui-kit": true,
+  "motion": true,
+  "charts": true,
+  "social": true,
+  "presentation": true,
+  "print-docs": true,
+  "events-merch-env": true,
+  "website": true,
+  "brand-book": true
+ },
+ "sample": {
+  "tagline": "Made to be used. Built to last.",
+  "mission": "Make everyday things that are beautiful, honest and long-lasting.",
+  "values": [
+   {
+    "name": "Quality",
+    "text": "Built to last.",
+    "icon": "check"
+   },
+   {
+    "name": "Honest",
+    "text": "Fair prices, clear origins.",
+    "icon": "eye"
+   },
+   {
+    "name": "Joy",
+    "text": "Make daily life better.",
+    "icon": "spark"
+   },
+   {
+    "name": "Care",
+    "text": "Repair before replace.",
+    "icon": "heart"
+   }
+  ],
+  "units": [
+   {
+    "key": "essentials",
+    "name": "Essentials",
+    "summary": "Everyday pieces.",
+    "icon": "bag"
+   },
+   {
+    "key": "home",
+    "name": "Home",
+    "summary": "Objects for living.",
+    "icon": "home"
+   },
+   {
+    "key": "gifts",
+    "name": "Gifts",
+    "summary": "Ready to give.",
+    "icon": "gift"
+   },
+   {
+    "key": "limited",
+    "name": "Limited",
+    "summary": "Small-batch drops.",
+    "icon": "star"
+   }
+  ],
+  "offerings": [
+   {
+    "key": "everyday-tote",
+    "name": "Everyday Tote",
+    "unit": "essentials",
+    "summary": "Heavy canvas, lifetime stitching.",
+    "price": "49"
+   },
+   {
+    "key": "travel-pouch",
+    "name": "Travel Pouch",
+    "unit": "essentials",
+    "summary": "Water-resistant, three sizes.",
+    "price": "29"
+   },
+   {
+    "key": "stoneware-mug",
+    "name": "Stoneware Mug",
+    "unit": "home",
+    "summary": "Hand-glazed, 350 ml.",
+    "price": "24"
+   },
+   {
+    "key": "linen-throw",
+    "name": "Linen Throw",
+    "unit": "home",
+    "summary": "Stone-washed linen.",
+    "price": "89"
+   },
+   {
+    "key": "gift-set",
+    "name": "Gift Set",
+    "unit": "gifts",
+    "summary": "Mug, pouch and card.",
+    "price": "69"
+   },
+   {
+    "key": "drop-01",
+    "name": "Drop 01 Jacket",
+    "unit": "limited",
+    "summary": "200 made. Numbered.",
+    "price": "189"
+   }
+  ],
+  "stats": [
+   {
+    "label": "Happy customers",
+    "value": "38,000",
+    "unit": "+"
+   },
+   {
+    "label": "Avg. rating",
+    "value": "4.8",
+    "unit": "/5"
+   },
+   {
+    "label": "Repairs done",
+    "value": "2,100",
+    "unit": ""
+   },
+   {
+    "label": "Plastic-free orders",
+    "value": "100",
+    "unit": "%"
+   }
+  ]
+ }
+}

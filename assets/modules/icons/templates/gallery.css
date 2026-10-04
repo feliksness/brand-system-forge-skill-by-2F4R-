@@ -1,0 +1,52 @@
+:root { --ix-tint: {{TINT}}; --ix-size: 32px; }
+body { background: var(--color-background); color: var(--color-text-primary); }
+.ix-skip { position: absolute; left: 16px; top: -80px; z-index: 50; padding: 10px 14px; background: var(--color-surface-inverse); color: var(--color-text-inverse); }
+.ix-skip:focus { top: 12px; }
+.ix-head { padding-top: clamp(24px, 5vw, 60px); padding-bottom: clamp(24px, 4vw, 40px); }
+.ix-top { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding-bottom: clamp(28px, 6vw, 72px); }
+.ix-logo svg { height: var(--ix-logo-h, 32px); width: auto; max-width: 260px; display: block; }
+.ix-logo--dark { display: none; }
+[data-theme="dark"] .ix-logo--light { display: none; }
+[data-theme="dark"] .ix-logo--dark { display: block; }
+.ix-ver { font-family: var(--font-mono); font-weight: var(--type-label-weight); font-size: var(--type-label-size); letter-spacing: var(--type-label-letter-spacing); text-transform: uppercase; color: var(--color-text-secondary); }
+.ix-intro { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 16px 48px; align-items: end; }
+.ix-title { font-family: var(--font-display); font-weight: var(--type-display-xl-weight); font-size: var(--type-display-xl-size); line-height: var(--type-display-xl-line-height); letter-spacing: var(--type-display-xl-letter-spacing); text-transform: var(--type-display-xl-transform); margin-top: 14px; }
+.ix-desc { color: var(--color-text-secondary); font-size: var(--type-body-l-size); line-height: 1.5; max-width: 54ch; }
+.ix-links { display: flex; flex-wrap: wrap; gap: 6px 20px; margin-top: 18px; font-size: var(--type-small-size); }
+.ix-bar { position: sticky; top: 0; z-index: 10; background: var(--color-background); border-top: var(--border-strong, 2px) solid var(--color-border-strong); border-bottom: 1px solid var(--color-border); }
+.ix-bar-in { display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center; padding-top: 12px; padding-bottom: 12px; }
+.ix-field { display: flex; align-items: center; gap: 8px; flex: 1 1 240px; max-width: 420px; min-height: 44px; padding: 0 12px; background: var(--color-surface); border: 1px solid var(--color-border-strong); border-radius: var(--radius-input, 4px); color: var(--color-text-secondary); }
+.ix-field input { flex: 1; min-width: 0; border: 0; outline: 0; background: transparent; font: inherit; font-size: var(--type-small-size); color: var(--color-text-primary); }
+.ix-field:focus-within { box-shadow: var(--focus-ring); }
+.ix-sel, .ix-range { display: flex; align-items: center; gap: 8px; font-size: var(--type-small-size); color: var(--color-text-secondary); }
+.ix-sel select { min-height: 44px; padding: 0 10px; border: 1px solid var(--color-border-strong); border-radius: var(--radius-input, 4px); background: var(--color-surface); color: var(--color-text-primary); font: inherit; }
+.ix-seg { display: inline-flex; border: 1px solid var(--color-border-strong); border-radius: var(--radius-button, 4px); overflow: hidden; }
+.ix-seg button, .ix-theme { min-height: 44px; min-width: 44px; padding: 0 14px; border: 0; background: transparent; color: var(--color-text-primary); font-family: var(--font-sans); font-weight: var(--type-button-weight); font-size: var(--type-small-size); cursor: pointer; }
+.ix-seg button + button { border-left: 1px solid var(--color-border-strong); }
+.ix-seg button[aria-pressed="true"] { background: var(--color-text-primary); color: var(--color-background); }
+.ix-theme { border: 1px solid var(--color-border-strong); border-radius: var(--radius-button, 4px); margin-left: auto; }
+.ix-range input { width: 128px; accent-color: var(--color-text-primary); }
+.ix-range output { font-family: var(--font-mono); min-width: 5ch; color: var(--color-text-primary); font-variant-numeric: tabular-nums; }
+.ix-main { padding-top: 20px; padding-bottom: 56px; }
+.ix-main:focus { outline: none; }
+.ix-hint { color: var(--color-text-secondary); font-size: var(--type-small-size); }
+.ix-set { padding-top: 32px; }
+.ix-set-h { display: flex; justify-content: space-between; align-items: baseline; font-family: var(--font-mono); font-weight: var(--type-eyebrow-weight); font-size: var(--type-eyebrow-size); letter-spacing: var(--type-eyebrow-letter-spacing); text-transform: uppercase; color: var(--color-text-secondary); padding-bottom: 10px; border-bottom: 1px solid var(--color-border); }
+.ix-set-h span:first-child { color: var(--color-text-primary); }
+.ix-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(calc(var(--ix-size) + 88px), 1fr)); }
+.ix-tile { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; min-height: calc(var(--ix-size) + 64px); padding: 14px 6px 12px; background: transparent; border: 0; border-bottom: 1px solid var(--color-border-subtle); color: var(--color-text-primary); cursor: pointer; font: inherit; }
+.ix-tile:hover { background: var(--color-surface); }
+.ix-tile:focus-visible { outline: 2px solid var(--color-focus); outline-offset: -3px; }
+.ix-tile[hidden], .ix-set[hidden] { display: none; }
+.ix-ic svg { display: block; }
+.ix-nm { font-family: var(--font-mono); font-size: 12px; color: var(--color-text-secondary); max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ix-tile:hover .ix-nm, .ix-tile:focus-visible .ix-nm { color: var(--color-text-primary); }
+.ix-empty { padding: 48px 0; color: var(--color-text-secondary); }
+.ix-empty button { background: none; border: 0; padding: 0; color: var(--color-text-link); text-decoration: underline; font: inherit; cursor: pointer; }
+.ix-foot { padding-bottom: 48px; color: var(--color-text-secondary); font-size: var(--type-small-size); }
+.ix-foot-p { max-width: 110ch; }
+.ix-foot code, .ix-hint code { font-family: var(--font-mono); font-size: .95em; }
+.ix-toast { position: fixed; left: 50%; bottom: 24px; transform: translate(-50%, 16px); opacity: 0; pointer-events: none; background: var(--color-surface-inverse); color: var(--color-text-inverse); padding: 10px 16px; border-radius: var(--radius-button, 4px); font-size: var(--type-small-size); box-shadow: var(--shadow-2); transition: opacity var(--duration-fast, .15s) var(--ease-standard, ease), transform var(--duration-fast, .15s) var(--ease-standard, ease); }
+.ix-toast.on { opacity: 1; transform: translate(-50%, 0); }
+@media (max-width: 760px) { .ix-bar { position: static; } .ix-intro { grid-template-columns: 1fr; } .ix-theme { margin-left: 0; } .ix-range input { width: 96px; } }
+@media (prefers-reduced-motion: reduce) { .ix-toast { transition: none; } }

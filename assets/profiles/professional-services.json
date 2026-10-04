@@ -1,0 +1,302 @@
+{
+ "key": "professional-services",
+ "title": "Professional & B2B services",
+ "fits": [
+  "consultancy",
+  "law firm",
+  "accounting",
+  "finance",
+  "agency",
+  "architecture",
+  "engineering consultancy",
+  "real-estate advisory",
+  "recruitment"
+ ],
+ "audiences": [
+  "clients and buyers",
+  "partners",
+  "candidates",
+  "media"
+ ],
+ "voice": {
+  "traits": [
+   "assured",
+   "precise",
+   "discreet",
+   "insightful",
+   "plain-spoken"
+  ],
+  "avoid": [
+   "clichés (synergy, solutions)",
+   "stock handshakes",
+   "over-claiming"
+  ],
+  "cta": [
+   "Talk to us",
+   "See our work",
+   "Read the insight"
+  ]
+ },
+ "colour": {
+  "strategy": "Restrained: foundation + paper carry most surfaces; primary for emphasis; accent used sparingly in data and highlights.",
+  "dark_theme": "supported",
+  "data": "restrained categorical + sequential"
+ },
+ "type": {
+  "display": [
+   "editorial",
+   "serif",
+   "classic",
+   "elegant",
+   "grotesk",
+   "neutral"
+  ],
+  "sans": [
+   "neutral",
+   "corporate",
+   "readable",
+   "grotesk",
+   "editorial"
+  ],
+  "mono": false,
+  "serif": true,
+  "hand": false
+ },
+ "dna_bias": {
+  "density": "airy",
+  "display_case": "sentence",
+  "motion_energy": 0.35,
+  "imagery": "architectural, editorial portraits, detail crops"
+ },
+ "labels": {
+  "units": "Practices",
+  "offerings": "Services",
+  "projects": "Case studies",
+  "events": "Events",
+  "posts": "Insights",
+  "people": "People",
+  "cta_primary": "Talk to us",
+  "cta_secondary": "Our work"
+ },
+ "pages": [
+  "home",
+  "about",
+  "units",
+  "offerings",
+  "offering-detail",
+  "projects",
+  "project-detail",
+  "people",
+  "person",
+  "insights",
+  "post",
+  "careers",
+  "contact",
+  "privacy"
+ ],
+ "icons": [
+  "core",
+  "ui",
+  "business",
+  "finance",
+  "communication",
+  "data",
+  "legal"
+ ],
+ "social": [
+  "linkedin-post",
+  "linkedin-banner",
+  "linkedin-carousel",
+  "instagram-post",
+  "instagram-story",
+  "x-post",
+  "og-image",
+  "avatar"
+ ],
+ "post_types": [
+  "insight",
+  "case-study",
+  "quote",
+  "stat",
+  "event",
+  "hiring",
+  "carousel-explainer"
+ ],
+ "presentation": [
+  "credentials",
+  "pitch",
+  "project-report",
+  "workshop"
+ ],
+ "print": [
+  "business-card",
+  "letterhead",
+  "envelope",
+  "compliment-slip",
+  "folder",
+  "brochure",
+  "report"
+ ],
+ "documents": [
+  "proposal",
+  "invoice",
+  "report",
+  "case-study",
+  "contract-cover",
+  "cv-template"
+ ],
+ "events": [
+  "badge",
+  "rollup-banner",
+  "backdrop",
+  "table-tent",
+  "signage"
+ ],
+ "merch": [
+  "notebook",
+  "pen",
+  "tote",
+  "umbrella",
+  "mug"
+ ],
+ "environment": [
+  "reception-sign",
+  "office-wall",
+  "meeting-room-sign",
+  "door-plate"
+ ],
+ "dataviz": [
+  "kpi",
+  "bar",
+  "line",
+  "table",
+  "timeline",
+  "process"
+ ],
+ "modules": {
+  "logo-system": true,
+  "icons": true,
+  "patterns-graphics": true,
+  "ui-kit": true,
+  "motion": true,
+  "charts": true,
+  "social": true,
+  "presentation": true,
+  "print-docs": true,
+  "events-merch-env": true,
+  "website": true,
+  "brand-book": true
+ },
+ "sample": {
+  "tagline": "Clear thinking. Measurable results.",
+  "mission": "Help organisations make better decisions and see them through.",
+  "values": [
+   {
+    "name": "Rigour",
+    "text": "Evidence over opinion.",
+    "icon": "check"
+   },
+   {
+    "name": "Candour",
+    "text": "We say what we see.",
+    "icon": "eye"
+   },
+   {
+    "name": "Partnership",
+    "text": "Your goals, our accountability.",
+    "icon": "link"
+   },
+   {
+    "name": "Craft",
+    "text": "Work we sign with pride.",
+    "icon": "spark"
+   }
+  ],
+  "units": [
+   {
+    "key": "strategy",
+    "name": "Strategy",
+    "summary": "Direction, portfolio and growth.",
+    "icon": "compass"
+   },
+   {
+    "key": "operations",
+    "name": "Operations",
+    "summary": "Process, cost and delivery.",
+    "icon": "gear"
+   },
+   {
+    "key": "digital",
+    "name": "Digital",
+    "summary": "Data, platforms and change.",
+    "icon": "chip"
+   },
+   {
+    "key": "people",
+    "name": "People",
+    "summary": "Leadership and organisation.",
+    "icon": "people"
+   }
+  ],
+  "offerings": [
+   {
+    "key": "growth",
+    "name": "Growth strategy",
+    "unit": "strategy",
+    "summary": "Where to play and how to win."
+   },
+   {
+    "key": "due-diligence",
+    "name": "Due diligence",
+    "unit": "strategy",
+    "summary": "Fast, independent assessments."
+   },
+   {
+    "key": "ops-review",
+    "name": "Operations review",
+    "unit": "operations",
+    "summary": "Find and fix the bottlenecks."
+   },
+   {
+    "key": "data",
+    "name": "Data & analytics",
+    "unit": "digital",
+    "summary": "From reporting to prediction."
+   },
+   {
+    "key": "transformation",
+    "name": "Transformation office",
+    "unit": "digital",
+    "summary": "Programmes that land."
+   },
+   {
+    "key": "leadership",
+    "name": "Leadership advisory",
+    "unit": "people",
+    "summary": "Teams built for what is next."
+   }
+  ],
+  "stats": [
+   {
+    "label": "Years of practice",
+    "value": "18",
+    "unit": ""
+   },
+   {
+    "label": "Clients served",
+    "value": "320",
+    "unit": "+"
+   },
+   {
+    "label": "Countries",
+    "value": "14",
+    "unit": ""
+   },
+   {
+    "label": "Repeat clients",
+    "value": "82",
+    "unit": "%"
+   }
+  ]
+ }
+}

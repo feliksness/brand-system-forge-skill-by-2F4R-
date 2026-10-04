@@ -1,0 +1,12 @@
+{
+  "name": "motion",
+  "title": "Motion system",
+  "version": "1.0.0",
+  "description": "Motion principles from the DNA character, <p>-motion.css/.js (reveals, stagger, transitions, micro-interactions, count-up, marquee, loader, logo engine), logo animations chosen by logo type, transitions gallery, generative motif tool; optional MP4/GIF export.",
+  "depends": [],
+  "order": 40,
+  "run": ["node", "build.js"],
+  "outputs": ["MOTION/", "GENERATIVE/", "SOURCE/CSS/{p}-motion.css", "SOURCE/JS/{p}-motion.js"],
+  "lite": true,
+  "seconds": 15
+}

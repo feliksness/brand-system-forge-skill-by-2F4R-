@@ -1,0 +1,111 @@
+/* ======================================================================
+   SHAPE — CUT  ·  dna.corner.style = cut · chamfer at {{ANGLE}}° · corners: {{CORNERS}}
+   ----------------------------------------------------------------------
+   clip-path would also clip focus outlines and borders, so the visible
+   surface of a cut component is painted on its ::before ("the plate") while
+   the element itself stays a rectangle: outlines stay whole and the
+   drop-shadow() elevation (filter on the element) follows the chamfer.
+   Per component:  --_cut  chamfer run (the drop is --_cut × tan {{ANGLE}}° = ×{{TAN}})
+                   --_tl --_tr --_br --_bl  which corners are cut (0px = square)
+                   --_fill --_line --_bw    plate colour, border colour, border width
+                   --_wipe                 hover colour that wipes in along the logo angle
+   ====================================================================== */
+:where({{PLATED}}) { --_tl: {{TL}}; --_tr: 0px; --_bl: 0px; --_br: var(--_cut); filter: var(--_elev, none); border-radius: 0; background: none; }
+:where({{PLATED}})::before {
+  content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none;
+  background-color: var(--_fill, transparent);
+  background-image:
+    linear-gradient(to bottom right, transparent calc(50% - .6px), var(--_line, transparent) calc(50% - .6px), var(--_line, transparent) calc(50% + var(--_bw, 0px)), transparent calc(50% + var(--_bw, 0px))),
+    linear-gradient(to bottom left,  transparent calc(50% - .6px), var(--_line, transparent) calc(50% - .6px), var(--_line, transparent) calc(50% + var(--_bw, 0px)), transparent calc(50% + var(--_bw, 0px))),
+    linear-gradient(to top left,     transparent calc(50% - .6px), var(--_line, transparent) calc(50% - .6px), var(--_line, transparent) calc(50% + var(--_bw, 0px)), transparent calc(50% + var(--_bw, 0px))),
+    linear-gradient(to top right,    transparent calc(50% - .6px), var(--_line, transparent) calc(50% - .6px), var(--_line, transparent) calc(50% + var(--_bw, 0px)), transparent calc(50% + var(--_bw, 0px))),
+    linear-gradient(var(--ui-wipe-angle), var(--_wipe, transparent) 50%, transparent 50%);
+  background-size:
+    var(--_tl) calc(var(--_tl) * var(--ui-tan)), var(--_tr) calc(var(--_tr) * var(--ui-tan)),
+    var(--_br) calc(var(--_br) * var(--ui-tan)), var(--_bl) calc(var(--_bl) * var(--ui-tan)), 260% 100%;
+  background-position: left top, right top, right bottom, left bottom, var(--_wipe-x, 100%) 0;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 0 0 var(--_bw, 0px) var(--_line, transparent);
+  clip-path: polygon(
+    var(--_tl) 0, calc(100% - var(--_tr)) 0, 100% calc(var(--_tr) * var(--ui-tan)),
+    100% calc(100% - var(--_br) * var(--ui-tan)), calc(100% - var(--_br)) 100%,
+    var(--_bl) 100%, 0 calc(100% - var(--_bl) * var(--ui-tan)), 0 calc(var(--_tl) * var(--ui-tan)));
+  transition: background-color var(--ui-dur) var(--ui-ease), background-position var(--ui-dur-slow) var(--ui-ease), box-shadow var(--ui-dur) var(--ui-ease);
+}
+/* Hover wipes the hover colour in along the logo angle instead of a flat colour change */
+.{{p}}-btn:is(:hover, .is-hover):not(:disabled, [aria-disabled="true"], [aria-busy="true"], .is-loading) { --_fill: var(--_bg); }
+.{{p}}-btn--secondary:is(:hover, .is-hover):not(:disabled, [aria-disabled="true"]) { --_wipe: var(--color-text-primary); --_ink: var(--color-text-inverse); }
+.{{p}}-btn:is(:active, .is-active):not(:disabled, [aria-disabled="true"]) { --_wipe: var(--_bg-a, var(--_wipe)); }
+.{{p}}-btn--secondary:is(:active, .is-active):not(:disabled, [aria-disabled="true"]) { --_wipe: var(--color-text-primary); --_ink: var(--color-text-inverse); }
+.{{p}}-chip:is(:hover, .is-hover):not([aria-pressed="true"], .is-selected) { --_fill: var(--_bg); }
+.{{p}}-pagination__link:is(:hover, .is-hover):not([aria-current]) { --_fill: var(--_bg); }
+
+/* Corner sets per component */
+.{{p}}-modal__frame { --_tl: var(--_cut); --_br: var(--_cut); }
+.{{p}}-drawer .{{p}}-modal__frame, .{{p}}-menu__panel { --_tl: var(--_cut); --_bl: var(--_cut); --_br: 0px; }
+.{{p}}-tooltip { --_tl: 0px; }
+.{{p}}-btn--link { --_tl: 0px; --_br: 0px; }
+
+/* Media follows the card's top corners */
+.{{p}}-card > .{{p}}-card__media:first-child, .{{p}}-card--horizontal > .{{p}}-card__media {
+  clip-path: polygon(var(--_tl) 0, calc(100% - var(--_tr)) 0, 100% calc(var(--_tr) * var(--ui-tan)), 100% 100%, 0 100%, 0 calc(var(--_tl) * var(--ui-tan)));
+}
+.{{p}}-card--horizontal > .{{p}}-card__media { clip-path: polygon(var(--_tl) 0, 100% 0, 100% 100%, var(--_bl) 100%, 0 calc(100% - var(--_bl) * var(--ui-tan)), 0 calc(var(--_tl) * var(--ui-tan))); }
+
+/* The missing corner: on hover a fragment in the indicator colour snaps into the cut */
+.{{p}}-card::after, .{{p}}-pricing__plan--featured::after {
+  content: ""; position: absolute; right: 0; bottom: 0; z-index: 3; pointer-events: none;
+  width: calc(var(--_br) - 4px); height: calc((var(--_br) - 4px) * var(--ui-tan));
+  background: var(--ui-line); clip-path: polygon(100% 0, 100% 100%, 0 100%);
+  transform: scale(0); transform-origin: 100% 100%; transition: transform var(--ui-dur) var(--ui-ease);
+}
+.{{p}}-card:is(:has(.{{p}}-card__link), .{{p}}-card--interactive):is(:hover, :focus-within, .is-hover)::after, .{{p}}-pricing__plan--featured::after { transform: scale(1); }
+
+/* Non-focusable shapes are clipped directly */
+.{{p}}-tag, .{{p}}-pricing__flag {
+  --_k: var(--ui-cut-tag);
+  clip-path: polygon({{TAG_TL}} 0, 100% 0, 100% calc(100% - var(--_k) * var(--ui-tan)), calc(100% - var(--_k)) 100%, 0 100%, 0 calc({{TAG_TL}} * var(--ui-tan)));
+  padding-right: calc(12px + var(--_k) * .5);
+}
+.{{p}}-avatar, .{{p}}-stepper__marker, .{{p}}-alert__icon, .{{p}}-toast__icon, .{{p}}-card__icon, .{{p}}-card__date, .{{p}}-avatar-group__more {
+  --_k: max(5px, calc(var(--_s, 36px) * .2));
+  clip-path: polygon({{AV_TL}} 0, 100% 0, 100% calc(100% - var(--_k) * var(--ui-tan)), calc(100% - var(--_k)) 100%, 0 100%, 0 calc({{AV_TL}} * var(--ui-tan)));
+}
+.{{p}}-card__date { --_s: 64px; }
+.{{p}}-avatar__status { top: 4%; bottom: auto; right: 4%; }
+.{{p}}-avatar-group > .{{p}}-avatar { box-shadow: none; }
+.{{p}}-avatar-group > .{{p}}-avatar + .{{p}}-avatar { margin-left: calc(var(--_s) * -.18); }
+.{{p}}-stepper__item[aria-current="step"] .{{p}}-stepper__marker { box-shadow: none; }
+.{{p}}-stepper__marker { box-shadow: none; background: linear-gradient(var(--ui-field-border), var(--ui-field-border)); position: relative; isolation: isolate; }
+.{{p}}-stepper__marker::after { content: ""; position: absolute; inset: var(--ui-bw-control); z-index: -1; background: var(--color-surface); clip-path: inherit; }
+.{{p}}-stepper__item:is(.is-done, [aria-current="step"]) .{{p}}-stepper__marker::after { content: none; }
+.{{p}}-stepper__item.is-done .{{p}}-stepper__marker { background: var(--ui-on); }
+.{{p}}-stepper__item[aria-current="step"] .{{p}}-stepper__marker { background: var(--ui-selected-bg); }
+
+/* Indicators — bars end on the logo angle */
+.{{p}}-tabs__tab::after { height: 4px; clip-path: polygon(calc(4px * var(--ui-cot)) 0, 100% 0, calc(100% - 4px * var(--ui-cot)) 100%, 0 100%); }
+.{{p}}-tabs--boxed .{{p}}-tabs__tab[aria-selected="true"], .{{p}}-segmented__input:checked + .{{p}}-segmented__label {
+  background: linear-gradient(calc(360deg - {{ANGLE}}deg), transparent calc(var(--ui-cut-xs) * var(--ui-sin)), var(--_selbg, var(--ui-selected-bg)) 0);
+}
+.{{p}}-segmented__input:checked + .{{p}}-segmented__label { --_selbg: var(--color-surface); box-shadow: none; }
+.{{p}}-tabs--pills .{{p}}-tabs__list { border-radius: 0; }
+.{{p}}-tabs--pills .{{p}}-tabs__tab[aria-selected="true"] { background: linear-gradient(calc(360deg - {{ANGLE}}deg), transparent calc(var(--ui-cut-xs) * var(--ui-sin)), var(--color-surface) 0); box-shadow: none; }
+.{{p}}-nav__link::after {
+  content: ""; position: absolute; left: 0; right: 0; bottom: 6px; height: 3px; background: var(--ui-line);
+  clip-path: polygon(calc(3px * var(--ui-cot)) 0, 100% 0, calc(100% - 3px * var(--ui-cot)) 100%, 0 100%);
+  transform: scaleX(0); transform-origin: 0 50%; transition: transform var(--ui-dur-slow) var(--ui-ease);
+}
+.{{p}}-nav__link:is(:hover, .is-hover)::after { transform: scaleX(.4); }
+.{{p}}-nav__link:is([aria-current="page"], [aria-current="true"])::after { transform: scaleX(1); }
+.{{p}}-lang__link[aria-current="true"] { box-shadow: none; background: linear-gradient(calc(360deg - {{ANGLE}}deg), transparent calc(var(--ui-cut-xs) * var(--ui-sin)), var(--ui-tint-strong) 0); }
+.{{p}}-progress__bar { clip-path: polygon(0 0, 100% 0, calc(100% - 8px * var(--ui-cot)) 100%, 0 100%); border-radius: 0; }
+.{{p}}-progress--thin .{{p}}-progress__bar { clip-path: polygon(0 0, 100% 0, calc(100% - 4px * var(--ui-cot)) 100%, 0 100%); }
+.{{p}}-meter { padding-left: calc(12px * var(--ui-cot) / 2); }
+.{{p}}-meter > i { transform: skewX(var(--ui-skew)); border-radius: 0; }
+.{{p}}-switch__input::before { clip-path: polygon(0 0, 100% 0, 100% calc(100% - 4px * var(--ui-tan)), calc(100% - 4px) 100%, 0 100%); }
+.{{p}}-file__zone { border-radius: 0; }
+.{{p}}-snippet, .{{p}}-table-wrap { border-radius: 0; }
+.{{p}}-kbd { border-radius: 0; }
+.{{p}}-badge { border-radius: 0; }
+.{{p}}-badge--count { border-radius: 0; clip-path: polygon(0 0, 100% 0, 100% calc(100% - 5px * var(--ui-tan)), calc(100% - 5px) 100%, 0 100%); }
+.{{p}}-search > .{{p}}-input { --_sr: var(--ui-r-control); }

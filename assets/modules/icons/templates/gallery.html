@@ -1,0 +1,33 @@
+<a class="ix-skip" href="#ix-main">Skip to icons</a>
+<header class="ix-head {{p}}-container">
+  <div class="ix-top">{{LOGO}}<span class="ix-ver">Icon system · v{{VERSION}}</span></div>
+  <div class="ix-intro">
+    <div>
+      <p class="{{p}}-eyebrow">{{BRAND}} · {{COUNT}} icons · {{SETCOUNT}} sets</p>
+      <h1 class="ix-title">{{TITLE}}</h1>
+    </div>
+    <div>
+      <p class="ix-desc">{{DESCRIBE}}</p>
+      <p class="ix-links"><a href="README.md">README</a><a href="sprite.svg">Sprite</a><a href="SVG/">SVG files</a><a href="../SOURCE/JSON/icons.json">icons.json</a><a href="previews/icons-overview.png">Overview sheet</a></p>
+    </div>
+  </div>
+</header>
+<div class="ix-bar">
+  <div class="ix-bar-in {{p}}-container" role="group" aria-label="Filter and display">
+    <label class="ix-field">{{SEARCH_ICON}}<span class="sr-only">Search icons</span><input id="ix-q" type="search" placeholder="Search icons — mail, arrow, care…" autocomplete="off" spellcheck="false"></label>
+    <label class="ix-sel"><span>Set</span><select id="ix-set"><option value="">All sets</option>{{SET_OPTIONS}}</select></label>
+    <div class="ix-seg" role="group" aria-label="Style"><button type="button" data-v="outline" aria-pressed="true">Outline</button><button type="button" data-v="duotone" aria-pressed="false">Duotone</button></div>
+    <label class="ix-range"><span>Size</span><input id="ix-size" type="range" min="16" max="64" step="4" value="32"><output id="ix-size-out" for="ix-size">32 px</output></label>
+    <button type="button" class="ix-theme" id="ix-theme" aria-pressed="false">Dark</button>
+  </div>
+</div>
+<main id="ix-main" class="{{p}}-container ix-main" tabindex="-1">
+  <p class="ix-hint">Click an icon to copy its SVG at the current size and style · Alt-click copies the name. <span id="ix-count" aria-live="polite"></span></p>
+  <div id="ix-sets"></div>
+  <p id="ix-empty" class="ix-empty" hidden>No icon matches “<span></span>”. Try another word or <button type="button" id="ix-reset">clear the search</button>.</p>
+  <noscript><p>The gallery needs JavaScript. The SVG files are in <a href="SVG/">ICONS/SVG</a>.</p></noscript>
+</main>
+<footer class="ix-foot {{p}}-container">
+  <p class="ix-foot-p">Decorative icons are <code>aria-hidden</code>; an icon that carries meaning on its own gets a label: <code>{{G}}.icon('mail', {label: 'Email'})</code>. Runtime: <code>SOURCE/JS/{{p}}-icons.js</code> · files: <code>ICONS/SVG/&lt;set&gt;/&lt;name&gt;.svg</code> · regenerate with the icons module (see README).</p>
+</footer>
+<div class="ix-toast" id="ix-toast" role="status" aria-live="polite"></div>

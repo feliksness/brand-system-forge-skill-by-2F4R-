@@ -1,0 +1,241 @@
+{
+  "_sample": true,
+  "_note": "Fictional example content generated from the professional-services profile. Schema: references/schemas/content.schema.md",
+  "brand": {
+    "name": "Northwind Studio",
+    "legal_name": "Northwind Studio",
+    "tagline": "Clear thinking. Measurable results.",
+    "descriptor": "Design consultancy",
+    "mission": "Help organisations make better decisions and see them through.",
+    "values": [
+      {
+        "name": "Rigour",
+        "text": "Evidence over opinion.",
+        "icon": "check"
+      },
+      {
+        "name": "Candour",
+        "text": "We say what we see.",
+        "icon": "eye"
+      },
+      {
+        "name": "Partnership",
+        "text": "Your goals, our accountability.",
+        "icon": "link"
+      },
+      {
+        "name": "Craft",
+        "text": "Work we sign with pride.",
+        "icon": "spark"
+      }
+    ],
+    "languages": [
+      "en",
+      "de"
+    ]
+  },
+  "labels": {
+    "units": "Practices",
+    "offerings": "Services",
+    "projects": "Case studies",
+    "events": "Events",
+    "posts": "Insights",
+    "people": "People",
+    "cta_primary": "Talk to us",
+    "cta_secondary": "Our work"
+  },
+  "contact": {
+    "email": "hello@northwind-studio.example",
+    "phone": "+00 000 000 000",
+    "address": "1 Example Street",
+    "city": "City",
+    "country": "Country",
+    "website": "northwind-studio.example",
+    "social": {
+      "instagram": "@northwindstudio",
+      "linkedin": "northwind-studio"
+    }
+  },
+  "units": [
+    {
+      "key": "strategy",
+      "name": "Strategy",
+      "summary": "Direction, portfolio and growth.",
+      "icon": "compass"
+    },
+    {
+      "key": "operations",
+      "name": "Operations",
+      "summary": "Process, cost and delivery.",
+      "icon": "gear"
+    },
+    {
+      "key": "digital",
+      "name": "Digital",
+      "summary": "Data, platforms and change.",
+      "icon": "chip"
+    },
+    {
+      "key": "people",
+      "name": "People",
+      "summary": "Leadership and organisation.",
+      "icon": "people"
+    }
+  ],
+  "offerings": [
+    {
+      "key": "growth",
+      "name": "Growth strategy",
+      "unit": "strategy",
+      "summary": "Where to play and how to win."
+    },
+    {
+      "key": "due-diligence",
+      "name": "Due diligence",
+      "unit": "strategy",
+      "summary": "Fast, independent assessments."
+    },
+    {
+      "key": "ops-review",
+      "name": "Operations review",
+      "unit": "operations",
+      "summary": "Find and fix the bottlenecks."
+    },
+    {
+      "key": "data",
+      "name": "Data & analytics",
+      "unit": "digital",
+      "summary": "From reporting to prediction."
+    },
+    {
+      "key": "transformation",
+      "name": "Transformation office",
+      "unit": "digital",
+      "summary": "Programmes that land."
+    },
+    {
+      "key": "leadership",
+      "name": "Leadership advisory",
+      "unit": "people",
+      "summary": "Teams built for what is next."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Years of practice",
+      "value": "18",
+      "unit": ""
+    },
+    {
+      "label": "Clients served",
+      "value": "320",
+      "unit": "+"
+    },
+    {
+      "label": "Countries",
+      "value": "14",
+      "unit": ""
+    },
+    {
+      "label": "Repeat clients",
+      "value": "82",
+      "unit": "%"
+    }
+  ],
+  "people": [
+    {
+      "name": "Alex Example",
+      "role": "Director",
+      "initials": "AE"
+    },
+    {
+      "name": "Sam Sample",
+      "role": "Lead",
+      "initials": "SS"
+    },
+    {
+      "name": "Kim Placeholder",
+      "role": "Coordinator",
+      "initials": "KP"
+    }
+  ],
+  "projects": [
+    {
+      "key": "project-1",
+      "title": "Strategy — flagship case studie",
+      "unit": "strategy",
+      "year": 2026,
+      "summary": "Direction, portfolio and growth."
+    },
+    {
+      "key": "project-2",
+      "title": "Operations — flagship case studie",
+      "unit": "operations",
+      "year": 2026,
+      "summary": "Process, cost and delivery."
+    },
+    {
+      "key": "project-3",
+      "title": "Digital — flagship case studie",
+      "unit": "digital",
+      "year": 2026,
+      "summary": "Data, platforms and change."
+    }
+  ],
+  "events": [
+    {
+      "key": "event-1",
+      "title": "Open evening",
+      "date": "2026-11-12",
+      "time": "18:00",
+      "place": "Main venue"
+    },
+    {
+      "key": "event-2",
+      "title": "Community meetup",
+      "date": "2026-12-03",
+      "time": "18:00",
+      "place": "Main venue"
+    },
+    {
+      "key": "event-3",
+      "title": "Annual showcase",
+      "date": "2027-02-18",
+      "time": "18:00",
+      "place": "Main venue"
+    }
+  ],
+  "posts": [
+    {
+      "key": "post-1",
+      "title": "A new chapter",
+      "date": "2026-10-01",
+      "category": "News"
+    },
+    {
+      "key": "post-2",
+      "title": "What we learned this year",
+      "date": "2026-09-12",
+      "category": "Insight"
+    },
+    {
+      "key": "post-3",
+      "title": "Meet the team",
+      "date": "2026-08-20",
+      "category": "People"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Clear, kind and genuinely useful.",
+      "name": "Sample Client",
+      "role": "Partner"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How do I get started?",
+      "a": "Get in touch and we will reply within two working days."
+    }
+  ]
+}

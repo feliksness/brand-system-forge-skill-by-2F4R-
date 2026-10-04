@@ -1,0 +1,12 @@
+{
+  "name": "logo-system",
+  "title": "Logo system",
+  "version": "1.0.0",
+  "description": "Lockups for the logo type in every colourway (SVG + PNG), one-colour sets, clear-space / minimum-size / construction / misuse guides, favicon + app-icon set, social avatars, PNG exports, logo sheet and LOGO/README.md.",
+  "depends": [],
+  "order": 10,
+  "run": ["python3", "build.py"],
+  "outputs": ["LOGO/LOCKUPS/", "LOGO/MONOCHROME/", "LOGO/GUIDES/", "LOGO/FAVICON/", "LOGO/AVATARS/", "LOGO/PNG/<slug>-*.png", "LOGO/logo-sheet.html", "LOGO/logo-sheet.png", "LOGO/README.md", "SOURCE/JSON/logo-system.json", "SOURCE/JS/{p}-logo-system.js"],
+  "lite": true,
+  "seconds": 25
+}

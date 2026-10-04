@@ -1,0 +1,16 @@
+/* ======================================================================
+   SHAPE — RADIUS  ·  dna.corner.style = {{CORNER}}
+   Surfaces paint on the element itself: fill, an inset border (box-shadow, so
+   it never changes the box size) and the elevation token. Radii come from the
+   --ui-r-* recipe variables (which point at the brand's --radius-* tokens).
+   ====================================================================== */
+:where({{PLATED}}) {
+  background-color: var(--_fill, transparent);
+  box-shadow: inset 0 0 0 var(--_bw, 0px) var(--_line, transparent), var(--_elev, 0 0 #0000);
+  border-radius: var(--_r);
+}
+/* Media inside cards follows the card radius */
+.{{p}}-card { --_mr: {{MEDIA_R}}; }
+.{{p}}-card > .{{p}}-card__media { border-radius: var(--_mr); }
+.{{p}}-card--horizontal > .{{p}}-card__media { border-radius: {{MEDIA_R_H}}; }
+.{{p}}-search > .{{p}}-input { --_sr: {{SEARCH_R}}; }

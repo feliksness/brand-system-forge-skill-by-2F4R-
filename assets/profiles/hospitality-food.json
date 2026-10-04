@@ -1,0 +1,304 @@
+{
+ "key": "hospitality-food",
+ "title": "Hospitality, food & drink",
+ "fits": [
+  "restaurant",
+  "café",
+  "bakery",
+  "bar",
+  "hotel",
+  "guesthouse",
+  "catering",
+  "food producer",
+  "winery"
+ ],
+ "audiences": [
+  "guests",
+  "locals",
+  "travellers",
+  "event bookers",
+  "press"
+ ],
+ "voice": {
+  "traits": [
+   "warm",
+   "inviting",
+   "sensory",
+   "personal",
+   "unhurried"
+  ],
+  "avoid": [
+   "menu clichés",
+   "over-styled stock food",
+   "shouting"
+  ],
+  "cta": [
+   "Book a table",
+   "See the menu",
+   "Visit us"
+  ]
+ },
+ "colour": {
+  "strategy": "Atmosphere first: warm paper and foundation tones; primary for signage and key moments; accent for appetite/highlights.",
+  "dark_theme": "evening mode optional",
+  "data": "none"
+ },
+ "type": {
+  "display": [
+   "warm",
+   "serif",
+   "elegant",
+   "editorial",
+   "soft",
+   "classic",
+   "luxury"
+  ],
+  "sans": [
+   "warm",
+   "friendly",
+   "readable",
+   "clean"
+  ],
+  "mono": false,
+  "serif": true,
+  "hand": true
+ },
+ "dna_bias": {
+  "density": "airy",
+  "display_case": "title",
+  "motion_energy": 0.35,
+  "imagery": "natural light, hands, ingredients, interiors"
+ },
+ "labels": {
+  "units": "Spaces",
+  "offerings": "Menu",
+  "projects": "Stories",
+  "events": "Events",
+  "posts": "Journal",
+  "people": "Team",
+  "cta_primary": "Book a table",
+  "cta_secondary": "See the menu"
+ },
+ "pages": [
+  "home",
+  "offerings",
+  "units",
+  "about",
+  "events",
+  "private-dining",
+  "journal",
+  "post",
+  "gift-cards",
+  "visit",
+  "contact",
+  "privacy"
+ ],
+ "icons": [
+  "core",
+  "ui",
+  "food",
+  "drink",
+  "dietary",
+  "hospitality",
+  "location"
+ ],
+ "social": [
+  "instagram-post",
+  "instagram-portrait",
+  "instagram-story",
+  "instagram-carousel",
+  "facebook-cover",
+  "google-business",
+  "og-image",
+  "avatar",
+  "tiktok-cover"
+ ],
+ "post_types": [
+  "dish-hero",
+  "special",
+  "event",
+  "behind-the-scenes",
+  "opening-hours",
+  "review-quote",
+  "seasonal-menu"
+ ],
+ "presentation": [
+  "venue-intro",
+  "events-catering-offer"
+ ],
+ "print": [
+  "business-card",
+  "menu",
+  "drinks-list",
+  "table-tent",
+  "coaster",
+  "napkin",
+  "receipt-header",
+  "gift-card",
+  "loyalty-card",
+  "poster",
+  "takeaway-bag",
+  "cup-sleeve",
+  "sticker-label"
+ ],
+ "documents": [
+  "invoice",
+  "event-proposal",
+  "booking-confirmation"
+ ],
+ "events": [
+  "chalkboard",
+  "a-frame-sign",
+  "table-number",
+  "place-card"
+ ],
+ "merch": [
+  "apron",
+  "tote",
+  "mug",
+  "cap",
+  "tea-towel",
+  "sticker"
+ ],
+ "environment": [
+  "storefront",
+  "window-graphic",
+  "interior-wall",
+  "menu-board",
+  "outdoor-sign",
+  "delivery-vehicle"
+ ],
+ "dataviz": [],
+ "modules": {
+  "logo-system": true,
+  "icons": true,
+  "patterns-graphics": true,
+  "ui-kit": true,
+  "motion": true,
+  "charts": false,
+  "social": true,
+  "presentation": true,
+  "print-docs": true,
+  "events-merch-env": true,
+  "website": true,
+  "brand-book": true
+ },
+ "sample": {
+  "tagline": "Come as you are. Stay a while.",
+  "mission": "Seasonal food, made with care, served like at home.",
+  "values": [
+   {
+    "name": "Seasonal",
+    "text": "The menu follows the market.",
+    "icon": "leaf"
+   },
+   {
+    "name": "Local",
+    "text": "Growers we know by name.",
+    "icon": "pin"
+   },
+   {
+    "name": "Generous",
+    "text": "Nobody leaves hungry.",
+    "icon": "heart"
+   },
+   {
+    "name": "Honest",
+    "text": "Simple food, done well.",
+    "icon": "check"
+   }
+  ],
+  "units": [
+   {
+    "key": "dining",
+    "name": "Dining room",
+    "summary": "60 seats, open kitchen.",
+    "icon": "fork"
+   },
+   {
+    "key": "bar",
+    "name": "Bar",
+    "summary": "Natural wine and small plates.",
+    "icon": "glass"
+   },
+   {
+    "key": "terrace",
+    "name": "Terrace",
+    "summary": "Summer garden seating.",
+    "icon": "sun"
+   },
+   {
+    "key": "bakery",
+    "name": "Bakery",
+    "summary": "Bread from 7am.",
+    "icon": "bread"
+   }
+  ],
+  "offerings": [
+   {
+    "key": "sourdough",
+    "name": "House sourdough",
+    "unit": "bakery",
+    "summary": "Cultured butter, sea salt.",
+    "price": "6"
+   },
+   {
+    "key": "tomatoes",
+    "name": "Heirloom tomatoes",
+    "unit": "dining",
+    "summary": "Peach, basil, olive oil.",
+    "price": "12"
+   },
+   {
+    "key": "risotto",
+    "name": "Wild mushroom risotto",
+    "unit": "dining",
+    "summary": "Aged parmesan, thyme.",
+    "price": "19"
+   },
+   {
+    "key": "fish",
+    "name": "Catch of the day",
+    "unit": "dining",
+    "summary": "Fennel, lemon, brown butter.",
+    "price": "26"
+   },
+   {
+    "key": "tart",
+    "name": "Apricot tart",
+    "unit": "bakery",
+    "summary": "Almond cream, crème fraîche.",
+    "price": "9"
+   },
+   {
+    "key": "spritz",
+    "name": "Garden spritz",
+    "unit": "bar",
+    "summary": "Elderflower, soda, mint.",
+    "price": "10"
+   }
+  ],
+  "stats": [
+   {
+    "label": "Seats",
+    "value": "60",
+    "unit": ""
+   },
+   {
+    "label": "Local suppliers",
+    "value": "24",
+    "unit": ""
+   },
+   {
+    "label": "Years open",
+    "value": "7",
+    "unit": ""
+   },
+   {
+    "label": "Bread baked daily",
+    "value": "300",
+    "unit": ""
+   }
+  ]
+ }
+}

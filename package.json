@@ -1,0 +1,17 @@
+{
+  "name": "brand-system-forge",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Claude skill + toolkit: build a complete visual identity and design system from any company logo and overview.",
+  "scripts": {
+    "setup": "bash scripts/setup.sh",
+    "test": "python3 tests/run_tests.py --out /tmp/forge-test"
+  },
+  "dependencies": {
+    "playwright": "^1.56.0",
+    "sharp": "^0.34.0",
+    "pptxgenjs": "^4.0.1",
+    "docx": "^9.5.0",
+    "pdf-lib": "^1.17.1"
+  }
+}

@@ -1,0 +1,314 @@
+{
+ "key": "saas-tech",
+ "title": "Software, apps, platforms, tech",
+ "fits": [
+  "SaaS",
+  "mobile app",
+  "platform",
+  "AI product",
+  "developer tool",
+  "IT services",
+  "fintech",
+  "startup"
+ ],
+ "audiences": [
+  "decision makers",
+  "end users",
+  "developers",
+  "investors",
+  "candidates"
+ ],
+ "voice": {
+  "traits": [
+   "clear",
+   "confident",
+   "precise",
+   "helpful",
+   "human"
+  ],
+  "avoid": [
+   "buzzword stacks",
+   "vague promises",
+   "fake urgency"
+  ],
+  "cta": [
+   "Start free",
+   "Book a demo",
+   "See pricing",
+   "Read the docs"
+  ]
+ },
+ "colour": {
+  "strategy": "Brand primary for actions; neutral UI chrome; a vivid accent for product highlights and data; dark theme is first-class.",
+  "dark_theme": "first-class",
+  "data": "categorical 6–8 + sequential ramp"
+ },
+ "type": {
+  "display": [
+   "tech",
+   "geometric",
+   "modern",
+   "wide",
+   "grotesk",
+   "contemporary",
+   "futuristic"
+  ],
+  "sans": [
+   "modern",
+   "readable",
+   "tech",
+   "clean",
+   "neutral"
+  ],
+  "mono": true,
+  "serif": false,
+  "hand": false
+ },
+ "dna_bias": {
+  "density": "balanced",
+  "display_case": "sentence",
+  "motion_energy": 0.65,
+  "imagery": "product UI, abstract 3D/graphic, people at work"
+ },
+ "labels": {
+  "units": "Solutions",
+  "offerings": "Features",
+  "projects": "Customers",
+  "events": "Webinars",
+  "posts": "Blog",
+  "people": "Team",
+  "cta_primary": "Start free",
+  "cta_secondary": "Book a demo"
+ },
+ "pages": [
+  "home",
+  "product",
+  "features",
+  "offering-detail",
+  "pricing",
+  "customers",
+  "project-detail",
+  "integrations",
+  "about",
+  "careers",
+  "blog",
+  "post",
+  "changelog",
+  "docs-landing",
+  "contact",
+  "status",
+  "privacy"
+ ],
+ "icons": [
+  "core",
+  "ui",
+  "product",
+  "data",
+  "devices",
+  "security",
+  "communication",
+  "commerce"
+ ],
+ "social": [
+  "instagram-post",
+  "instagram-portrait",
+  "instagram-story",
+  "instagram-carousel",
+  "linkedin-post",
+  "linkedin-banner",
+  "facebook-cover",
+  "x-post",
+  "youtube-thumbnail",
+  "og-image",
+  "avatar"
+ ],
+ "post_types": [
+  "feature-launch",
+  "customer-quote",
+  "stat",
+  "tip",
+  "changelog",
+  "hiring",
+  "webinar",
+  "carousel-explainer"
+ ],
+ "presentation": [
+  "pitch-deck",
+  "product-demo",
+  "customer-onboarding",
+  "quarterly-update"
+ ],
+ "print": [
+  "business-card",
+  "letterhead",
+  "one-pager",
+  "sticker-sheet",
+  "poster"
+ ],
+ "documents": [
+  "proposal",
+  "invoice",
+  "case-study",
+  "whitepaper",
+  "release-notes",
+  "security-overview"
+ ],
+ "events": [
+  "badge",
+  "lanyard",
+  "booth-backdrop",
+  "rollup-banner",
+  "screen-loop",
+  "signage"
+ ],
+ "merch": [
+  "tshirt",
+  "hoodie",
+  "sticker",
+  "laptop-sleeve",
+  "mug",
+  "notebook",
+  "socks"
+ ],
+ "environment": [
+  "office-wall",
+  "meeting-room-sign",
+  "screen-loop"
+ ],
+ "dataviz": [
+  "kpi",
+  "line",
+  "area",
+  "bar",
+  "funnel",
+  "donut",
+  "table",
+  "sparkline"
+ ],
+ "modules": {
+  "logo-system": true,
+  "icons": true,
+  "patterns-graphics": true,
+  "ui-kit": true,
+  "motion": true,
+  "charts": true,
+  "social": true,
+  "presentation": true,
+  "print-docs": true,
+  "events-merch-env": true,
+  "website": true,
+  "brand-book": true
+ },
+ "sample": {
+  "tagline": "Work that runs itself.",
+  "mission": "Give every team software that is fast, honest and a pleasure to use.",
+  "values": [
+   {
+    "name": "Clarity",
+    "text": "Simple beats clever.",
+    "icon": "eye"
+   },
+   {
+    "name": "Speed",
+    "text": "Ship small, learn fast.",
+    "icon": "bolt"
+   },
+   {
+    "name": "Trust",
+    "text": "Security and privacy by default.",
+    "icon": "shield"
+   },
+   {
+    "name": "Craft",
+    "text": "Details matter.",
+    "icon": "spark"
+   }
+  ],
+  "units": [
+   {
+    "key": "analytics",
+    "name": "Analytics",
+    "summary": "See what matters, live.",
+    "icon": "chart"
+   },
+   {
+    "key": "automation",
+    "name": "Automation",
+    "summary": "Workflows that run themselves.",
+    "icon": "flow"
+   },
+   {
+    "key": "collaboration",
+    "name": "Collaboration",
+    "summary": "Work together in real time.",
+    "icon": "people"
+   },
+   {
+    "key": "security",
+    "name": "Security",
+    "summary": "Enterprise-grade by default.",
+    "icon": "shield"
+   }
+  ],
+  "offerings": [
+   {
+    "key": "dashboards",
+    "name": "Live dashboards",
+    "unit": "analytics",
+    "summary": "Real-time views of every metric."
+   },
+   {
+    "key": "alerts",
+    "name": "Smart alerts",
+    "unit": "analytics",
+    "summary": "Know before it breaks."
+   },
+   {
+    "key": "flows",
+    "name": "Flow builder",
+    "unit": "automation",
+    "summary": "Drag-and-drop automations."
+   },
+   {
+    "key": "api",
+    "name": "Open API",
+    "unit": "automation",
+    "summary": "Everything is an endpoint."
+   },
+   {
+    "key": "spaces",
+    "name": "Shared spaces",
+    "unit": "collaboration",
+    "summary": "One place for every project."
+   },
+   {
+    "key": "sso",
+    "name": "SSO & roles",
+    "unit": "security",
+    "summary": "SAML, SCIM and fine-grained roles."
+   }
+  ],
+  "stats": [
+   {
+    "label": "Teams",
+    "value": "4,800",
+    "unit": "+"
+   },
+   {
+    "label": "Uptime",
+    "value": "99.98",
+    "unit": "%"
+   },
+   {
+    "label": "Hours saved / month",
+    "value": "12",
+    "unit": "k"
+   },
+   {
+    "label": "Integrations",
+    "value": "140",
+    "unit": "+"
+   }
+  ]
+ }
+}

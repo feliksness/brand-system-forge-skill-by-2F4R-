@@ -1,0 +1,310 @@
+{
+ "key": "industrial-energy",
+ "title": "Industrial, construction, logistics, energy",
+ "fits": [
+  "manufacturing",
+  "construction",
+  "engineering",
+  "logistics",
+  "energy",
+  "mining",
+  "utilities",
+  "agriculture business",
+  "real-estate development"
+ ],
+ "audiences": [
+  "B2B buyers",
+  "engineers and procurement",
+  "investors",
+  "regulators and communities",
+  "candidates"
+ ],
+ "voice": {
+  "traits": [
+   "solid",
+   "factual",
+   "safety-minded",
+   "capable",
+   "direct"
+  ],
+  "avoid": [
+   "vague sustainability claims",
+   "stock hard hats",
+   "over-polish"
+  ],
+  "cta": [
+   "Request a quote",
+   "Download specs",
+   "Talk to an engineer"
+  ]
+ },
+ "colour": {
+  "strategy": "Strong foundation + one signal colour (from the logo) for safety-grade emphasis; technical neutrals; accent for data.",
+  "dark_theme": "supported",
+  "data": "sequential + categorical, high contrast"
+ },
+ "type": {
+  "display": [
+   "industrial",
+   "condensed",
+   "strong",
+   "technical",
+   "bold",
+   "grotesk"
+  ],
+  "sans": [
+   "technical",
+   "engineering",
+   "corporate",
+   "neutral",
+   "readable"
+  ],
+  "mono": true,
+  "serif": false,
+  "hand": false
+ },
+ "dna_bias": {
+  "density": "dense",
+  "display_case": "upper",
+  "motion_energy": 0.45,
+  "imagery": "sites, machines, materials, people at work — real, not staged"
+ },
+ "labels": {
+  "units": "Sectors",
+  "offerings": "Capabilities",
+  "projects": "Projects",
+  "events": "Events",
+  "posts": "News",
+  "people": "Leadership",
+  "cta_primary": "Request a quote",
+  "cta_secondary": "Our projects"
+ },
+ "pages": [
+  "home",
+  "units",
+  "offerings",
+  "offering-detail",
+  "projects",
+  "project-detail",
+  "sustainability",
+  "safety",
+  "about",
+  "careers",
+  "news",
+  "post",
+  "downloads",
+  "contact",
+  "privacy"
+ ],
+ "icons": [
+  "core",
+  "ui",
+  "industry",
+  "energy",
+  "logistics",
+  "safety",
+  "data",
+  "environment"
+ ],
+ "social": [
+  "linkedin-post",
+  "linkedin-banner",
+  "linkedin-carousel",
+  "instagram-post",
+  "instagram-story",
+  "facebook-cover",
+  "youtube-thumbnail",
+  "og-image",
+  "avatar"
+ ],
+ "post_types": [
+  "project-milestone",
+  "safety-stat",
+  "capability",
+  "hiring",
+  "event",
+  "carousel-explainer"
+ ],
+ "presentation": [
+  "capability-statement",
+  "project-update",
+  "investor-update",
+  "safety-briefing"
+ ],
+ "print": [
+  "business-card",
+  "letterhead",
+  "envelope",
+  "datasheet",
+  "brochure",
+  "report",
+  "site-hoarding",
+  "id-card"
+ ],
+ "documents": [
+  "quote",
+  "invoice",
+  "datasheet",
+  "method-statement",
+  "report",
+  "certificate"
+ ],
+ "events": [
+  "badge",
+  "booth-backdrop",
+  "rollup-banner",
+  "signage"
+ ],
+ "merch": [
+  "hard-hat-sticker",
+  "hi-vis-vest",
+  "workwear-tshirt",
+  "cap",
+  "mug",
+  "notebook"
+ ],
+ "environment": [
+  "site-hoarding",
+  "vehicle-livery",
+  "facility-sign",
+  "wayfinding",
+  "reception-sign",
+  "safety-sign"
+ ],
+ "dataviz": [
+  "kpi",
+  "line",
+  "bar",
+  "stacked-bar",
+  "gauge",
+  "table",
+  "timeline",
+  "map-placeholder"
+ ],
+ "modules": {
+  "logo-system": true,
+  "icons": true,
+  "patterns-graphics": true,
+  "ui-kit": true,
+  "motion": true,
+  "charts": true,
+  "social": true,
+  "presentation": true,
+  "print-docs": true,
+  "events-merch-env": true,
+  "website": true,
+  "brand-book": true
+ },
+ "sample": {
+  "tagline": "Built right. Delivered on time.",
+  "mission": "Engineer and deliver infrastructure that performs for decades.",
+  "values": [
+   {
+    "name": "Safety",
+    "text": "Everyone home, every day.",
+    "icon": "shield"
+   },
+   {
+    "name": "Precision",
+    "text": "Measured twice.",
+    "icon": "ruler"
+   },
+   {
+    "name": "Reliability",
+    "text": "We do what we say.",
+    "icon": "check"
+   },
+   {
+    "name": "Responsibility",
+    "text": "Lower impact, every project.",
+    "icon": "leaf"
+   }
+  ],
+  "units": [
+   {
+    "key": "energy",
+    "name": "Energy",
+    "summary": "Generation and grid.",
+    "icon": "bolt"
+   },
+   {
+    "key": "infrastructure",
+    "name": "Infrastructure",
+    "summary": "Roads, bridges, utilities.",
+    "icon": "bridge"
+   },
+   {
+    "key": "industrial",
+    "name": "Industrial",
+    "summary": "Plants and facilities.",
+    "icon": "factory"
+   },
+   {
+    "key": "logistics",
+    "name": "Logistics",
+    "summary": "Warehousing and transport.",
+    "icon": "truck"
+   }
+  ],
+  "offerings": [
+   {
+    "key": "epc",
+    "name": "EPC delivery",
+    "unit": "energy",
+    "summary": "Design, procurement, construction."
+   },
+   {
+    "key": "solar",
+    "name": "Solar parks",
+    "unit": "energy",
+    "summary": "From 5 to 200 MW."
+   },
+   {
+    "key": "bridges",
+    "name": "Bridge engineering",
+    "unit": "infrastructure",
+    "summary": "Steel and concrete structures."
+   },
+   {
+    "key": "fabrication",
+    "name": "Steel fabrication",
+    "unit": "industrial",
+    "summary": "Certified in-house workshop."
+   },
+   {
+    "key": "maintenance",
+    "name": "Asset maintenance",
+    "unit": "industrial",
+    "summary": "24/7 service contracts."
+   },
+   {
+    "key": "warehousing",
+    "name": "Warehousing",
+    "unit": "logistics",
+    "summary": "Design-build facilities."
+   }
+  ],
+  "stats": [
+   {
+    "label": "Projects delivered",
+    "value": "640",
+    "unit": ""
+   },
+   {
+    "label": "Engineers",
+    "value": "380",
+    "unit": ""
+   },
+   {
+    "label": "Lost-time injury rate",
+    "value": "0.12",
+    "unit": ""
+   },
+   {
+    "label": "MW installed",
+    "value": "1,450",
+    "unit": ""
+   }
+  ]
+ }
+}

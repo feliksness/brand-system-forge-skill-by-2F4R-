@@ -1,0 +1,325 @@
+{
+ "key": "nonprofit-ngo",
+ "title": "Non-profit, NGO, foundation, association",
+ "fits": [
+  "NGO",
+  "charity",
+  "foundation",
+  "association",
+  "civic initiative",
+  "volunteer network",
+  "public organisation",
+  "think tank"
+ ],
+ "audiences": [
+  "beneficiaries",
+  "volunteers",
+  "donors and grant makers",
+  "partners and institutions",
+  "media",
+  "the public"
+ ],
+ "voice": {
+  "traits": [
+   "warm",
+   "clear",
+   "credible",
+   "hopeful",
+   "inclusive"
+  ],
+  "avoid": [
+   "pity imagery",
+   "saviour language",
+   "jargon",
+   "exaggerated impact claims"
+  ],
+  "cta": [
+   "Get involved",
+   "Volunteer",
+   "Support our work",
+   "Read the report"
+  ]
+ },
+ "colour": {
+  "strategy": "Logo colours lead; one warm or vivid accent; a calm neutral field so photography of people carries emotion.",
+  "dark_theme": "supported",
+  "data": "categorical by programme/area"
+ },
+ "type": {
+  "display": [
+   "civic",
+   "editorial",
+   "condensed",
+   "monumental",
+   "strong",
+   "friendly",
+   "grotesk"
+  ],
+  "sans": [
+   "readable",
+   "institutional",
+   "accessible",
+   "neutral",
+   "friendly"
+  ],
+  "mono": true,
+  "serif": false,
+  "hand": false
+ },
+ "dna_bias": {
+  "density": "balanced",
+  "display_case": "upper",
+  "motion_energy": 0.5,
+  "imagery": "documentary photography of real people; consent-first"
+ },
+ "labels": {
+  "units": "Areas",
+  "offerings": "Programmes",
+  "projects": "Projects",
+  "events": "Events",
+  "posts": "News",
+  "people": "Team",
+  "cta_primary": "Get involved",
+  "cta_secondary": "Our programmes"
+ },
+ "pages": [
+  "home",
+  "about",
+  "units",
+  "offerings",
+  "offering-detail",
+  "projects",
+  "project-detail",
+  "events",
+  "news",
+  "post",
+  "get-involved",
+  "donate",
+  "partners",
+  "reports",
+  "team",
+  "contact",
+  "privacy"
+ ],
+ "icons": [
+  "core",
+  "ui",
+  "people",
+  "community",
+  "education",
+  "environment",
+  "health",
+  "communication",
+  "data"
+ ],
+ "social": [
+  "instagram-post",
+  "instagram-portrait",
+  "instagram-story",
+  "instagram-carousel",
+  "linkedin-post",
+  "linkedin-banner",
+  "facebook-cover",
+  "x-post",
+  "youtube-thumbnail",
+  "og-image",
+  "avatar"
+ ],
+ "post_types": [
+  "announcement",
+  "event",
+  "impact-stat",
+  "quote",
+  "volunteer-call",
+  "report-launch",
+  "thank-you",
+  "carousel-explainer"
+ ],
+ "presentation": [
+  "organisation-intro",
+  "partner-pitch",
+  "annual-results",
+  "workshop"
+ ],
+ "print": [
+  "business-card",
+  "letterhead",
+  "envelope",
+  "certificate",
+  "poster",
+  "flyer",
+  "brochure",
+  "annual-report",
+  "donation-form"
+ ],
+ "documents": [
+  "proposal",
+  "grant-application",
+  "report",
+  "meeting-minutes",
+  "press-release",
+  "volunteer-agreement"
+ ],
+ "events": [
+  "badge",
+  "lanyard",
+  "rollup-banner",
+  "backdrop",
+  "signage",
+  "wayfinding",
+  "certificate",
+  "table-tent"
+ ],
+ "merch": [
+  "tshirt",
+  "hoodie",
+  "tote",
+  "cap",
+  "sticker",
+  "pin",
+  "notebook",
+  "water-bottle"
+ ],
+ "environment": [
+  "office-wall",
+  "reception-sign",
+  "window-graphic",
+  "vehicle"
+ ],
+ "dataviz": [
+  "kpi",
+  "bar",
+  "line",
+  "donut",
+  "map-placeholder",
+  "timeline",
+  "org-chart",
+  "progress"
+ ],
+ "modules": {
+  "logo-system": true,
+  "icons": true,
+  "patterns-graphics": true,
+  "ui-kit": true,
+  "motion": true,
+  "charts": true,
+  "social": true,
+  "presentation": true,
+  "print-docs": true,
+  "events-merch-env": true,
+  "website": true,
+  "brand-book": true
+ },
+ "sample": {
+  "tagline": "Together, we make it happen.",
+  "mission": "Open opportunity to more people through education, community and action.",
+  "values": [
+   {
+    "name": "People first",
+    "text": "Every decision starts with the people we serve.",
+    "icon": "people"
+   },
+   {
+    "name": "Open",
+    "text": "We share what we learn.",
+    "icon": "open"
+   },
+   {
+    "name": "Accountable",
+    "text": "We report results honestly.",
+    "icon": "check"
+   },
+   {
+    "name": "Together",
+    "text": "Partners multiply impact.",
+    "icon": "link"
+   }
+  ],
+  "units": [
+   {
+    "key": "education",
+    "name": "Education",
+    "summary": "Learning programmes for every age.",
+    "icon": "education"
+   },
+   {
+    "key": "community",
+    "name": "Community",
+    "summary": "Local action led by residents.",
+    "icon": "community"
+   },
+   {
+    "key": "environment",
+    "name": "Environment",
+    "summary": "Care for shared places.",
+    "icon": "leaf"
+   },
+   {
+    "key": "research",
+    "name": "Research",
+    "summary": "Evidence that informs policy.",
+    "icon": "research"
+   }
+  ],
+  "offerings": [
+   {
+    "key": "mentoring",
+    "name": "Mentoring Circles",
+    "unit": "education",
+    "summary": "Peer mentoring for young people, 12 weeks."
+   },
+   {
+    "key": "youth-lab",
+    "name": "Youth Lab",
+    "unit": "education",
+    "summary": "Hands-on workshops in science and media."
+   },
+   {
+    "key": "neighbour",
+    "name": "Neighbour Days",
+    "unit": "community",
+    "summary": "Monthly volunteer days in local neighbourhoods."
+   },
+   {
+    "key": "green-yards",
+    "name": "Green Yards",
+    "unit": "environment",
+    "summary": "Courtyards turned into gardens with residents."
+   },
+   {
+    "key": "open-data",
+    "name": "Open Data Desk",
+    "unit": "research",
+    "summary": "Data briefings for journalists and councils."
+   },
+   {
+    "key": "volunteer",
+    "name": "Volunteer Network",
+    "unit": "community",
+    "summary": "Training and matching for volunteers."
+   }
+  ],
+  "stats": [
+   {
+    "label": "People reached",
+    "value": "12,400",
+    "unit": ""
+   },
+   {
+    "label": "Volunteers",
+    "value": "860",
+    "unit": ""
+   },
+   {
+    "label": "Partner organisations",
+    "value": "45",
+    "unit": ""
+   },
+   {
+    "label": "Volunteer hours",
+    "value": "31,000",
+    "unit": "h"
+   }
+  ]
+ }
+}

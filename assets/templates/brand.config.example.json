@@ -1,0 +1,205 @@
+{
+  "$schema_note": "Fictional example produced by scripts/auto_config.py for a test logo (tests/logos/northwind.png). Schema: references/schemas/brand.config.schema.md",
+  "brand": {
+    "name": "Northwind Studio",
+    "legal_name": "Northwind Studio",
+    "name_local": "",
+    "descriptor": "Design consultancy",
+    "tagline": "Clear thinking. Measurable results.",
+    "languages": [
+      "en",
+      "de"
+    ],
+    "primary_language": "en",
+    "profile": "professional-services",
+    "repo_name": "NORTHWIND-STUDIO-BRAND",
+    "prefix": "ns",
+    "global": "NS",
+    "mark_noun": "mark",
+    "brand_idea": "Two views. One direction.",
+    "principle": "PRECISION + WARMTH"
+  },
+  "logo": {
+    "artwork": "logo.png",
+    "type": "combination",
+    "geometry": "angular",
+    "complexity": "flat",
+    "vectorize": {
+      "route": "flat-trace",
+      "levels": {
+        "master": {
+          "colors": "auto",
+          "mode": "polygon"
+        },
+        "simplified": {
+          "colors": "auto",
+          "max_colors": 3,
+          "mode": "polygon"
+        }
+      }
+    },
+    "lettering": {
+      "colors": "auto",
+      "max_colors": 3,
+      "mode": "spline"
+    }
+  },
+  "roles": {
+    "primary": "jade",
+    "foundation": "navy",
+    "paper": "paper",
+    "accent": "orange",
+    "primary_ramp": "primary",
+    "neutral_ramp": "neutral"
+  },
+  "palette": [
+    {
+      "group": "primary",
+      "key": "jade",
+      "name": "Jade",
+      "hex": "#2EC4B6",
+      "origin": "Sampled from the logo.",
+      "role": "Brand primary: actions, emphasis, the \"one primary thing\" per layout."
+    },
+    {
+      "group": "primary",
+      "key": "navy",
+      "name": "Navy",
+      "hex": "#1B2A41",
+      "origin": "Sampled from the logo.",
+      "role": "Foundation: text on light, dark theme background, one-colour logo."
+    },
+    {
+      "group": "primary",
+      "key": "paper",
+      "name": "Paper",
+      "hex": "#F0F9F8",
+      "origin": "Derived (not in the logo).",
+      "role": "Paper: default background."
+    },
+    {
+      "group": "accent",
+      "key": "orange",
+      "name": "Orange",
+      "hex": "#FF9F1C",
+      "origin": "Sampled from the logo.",
+      "role": "Accent ≤ 10%: highlights, data, focus on dark."
+    }
+  ],
+  "palette_notes": [
+    "primary #2EC4B6 — most chromatic significant logo colour (22% of ink)",
+    "foundation #1B2A41 — darkest logo colour",
+    "paper #F0F9F8 — derived warm/cool white from the primary hue",
+    "accent #FF9F1C — most hue-distant chromatic logo colour"
+  ],
+  "semantic": {},
+  "themes": {
+    "light": {},
+    "dark": {},
+    "contrast": {}
+  },
+  "fonts": {
+    "families": [
+      {
+        "role": "display",
+        "family": "Instrument Serif",
+        "slug": "instrument-serif",
+        "package": "@fontsource/instrument-serif",
+        "css": [
+          "400.css"
+        ],
+        "subsets": [
+          "latin",
+          "latin-ext"
+        ],
+        "category": "serif",
+        "tags": [
+          "elegant",
+          "editorial",
+          "serif",
+          "fashion"
+        ],
+        "weights": [
+          400,
+          400
+        ],
+        "variable": false
+      },
+      {
+        "role": "sans",
+        "family": "Hanken Grotesk",
+        "slug": "hanken-grotesk",
+        "package": "@fontsource-variable/hanken-grotesk",
+        "css": [
+          "index.css",
+          "wght-italic.css"
+        ],
+        "subsets": [
+          "latin",
+          "latin-ext"
+        ],
+        "category": "sans-serif",
+        "tags": [
+          "neutral",
+          "grotesk",
+          "readable"
+        ],
+        "weights": [
+          100,
+          900
+        ],
+        "variable": true
+      }
+    ],
+    "stacks": {
+      "display": "'Instrument Serif', serif",
+      "sans": "'Hanken Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif",
+      "mono": "'Hanken Grotesk', system-ui, -apple-system, 'Segoe UI', sans-serif"
+    },
+    "settings": {
+      "headline": "normal",
+      "body": "normal"
+    },
+    "samples": {
+      "display": "Northwind Studio",
+      "sans": "Clear thinking. Measurable results. — 0123456789",
+      "mono": "NS / REF. 2026-014 · 08:30 · №0042"
+    }
+  },
+  "wordmark": {
+    "mode": "traced",
+    "font": {
+      "slug": "instrument-serif",
+      "subset": "latin",
+      "axes": {
+        "wght": 400
+      }
+    },
+    "tracking_em": -0.01,
+    "lines": [
+      "Northwind",
+      "Studio"
+    ],
+    "line_advance_caps": 1.2,
+    "one_line": "Northwind Studio",
+    "monogram": "NS",
+    "descriptors": [
+      {
+        "name": "descriptor",
+        "text": "Design consultancy",
+        "font": {
+          "slug": "hanken-grotesk",
+          "subset": "latin",
+          "axes": {
+            "wght": 500
+          }
+        },
+        "tracking_em": 0.12
+      }
+    ]
+  },
+  "dna": {},
+  "tokens": {},
+  "type": {},
+  "content": "content.json"
+}

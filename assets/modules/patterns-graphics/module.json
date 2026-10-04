@@ -1,0 +1,19 @@
+{
+  "name": "patterns-graphics",
+  "title": "Patterns, graphic devices, image crops & photography",
+  "version": "1.0.0",
+  "description": "Graphic language derived from the logo and design DNA: seamless pattern tiles in three colourways, 45+ graphic devices, image masks + photo treatments CSS, photo placeholders + direction, an offline generator and overview boards.",
+  "depends": [],
+  "order": 30,
+  "run": ["node", "build.js"],
+  "outputs": [
+    "PATTERNS/",
+    "GRAPHICS/",
+    "PHOTOGRAPHY/",
+    "SOURCE/CSS/{p}-graphics.css",
+    "SOURCE/JS/{p}-graphics.js",
+    "SOURCE/JSON/patterns-graphics.json"
+  ],
+  "lite": true,
+  "seconds": 20
+}

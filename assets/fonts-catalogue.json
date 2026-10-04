@@ -1,0 +1,4105 @@
+{
+ "note": "Curated open-source families (Fontsource/npm). Pick by role + script coverage (subsets) + character tags. Avoid \"overused\" defaults.",
+ "families": [
+  {
+   "family": "Sofia Sans Extra Condensed",
+   "slug": "sofia-sans-extra-condensed",
+   "package": "@fontsource-variable/sofia-sans-extra-condensed",
+   "variable": true,
+   "category": "sans-serif",
+   "roles": [
+    "display"
+   ],
+   "tags": [
+    "editorial",
+    "monumental",
+    "condensed",
+    "civic"
+   ],
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "axes": {
+    "ital": [
+     0.0,
+     1.0
+    ],
+    "wght": [
+     1.0,
+     1000.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "wght-italic.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "index.css",
+    "wght-italic.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Sofia Sans Condensed",
+   "slug": "sofia-sans-condensed",
+   "package": "@fontsource-variable/sofia-sans-condensed",
+   "variable": true,
+   "category": "sans-serif",
+   "roles": [
+    "display"
+   ],
+   "tags": [
+    "editorial",
+    "condensed",
+    "neutral"
+   ],
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "axes": {
+    "ital": [
+     0.0,
+     1.0
+    ],
+    "wght": [
+     1.0,
+     1000.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "wght-italic.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "index.css",
+    "wght-italic.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Big Shoulders Display",
+   "slug": "big-shoulders-display",
+   "package": "@fontsource-variable/big-shoulders-display",
+   "variable": true,
+   "category": "display",
+   "roles": [
+    "display"
+   ],
+   "tags": [
+    "industrial",
+    "civic",
+    "condensed",
+    "strong"
+   ],
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "normal"
+   ],
+   "axes": {
+    "wght": [
+     100.0,
+     900.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "index.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Anton",
+   "slug": "anton",
+   "package": "@fontsource/anton",
+   "variable": false,
+   "category": "sans-serif",
+   "roles": [
+    "display"
+   ],
+   "tags": [
+    "bold",
+    "condensed",
+    "poster"
+   ],
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    400
+   ],
+   "styles": [
+    "normal"
+   ],
+   "axes": {},
+   "css_files": [
+    "400.css",
+    "index.css",
+    "latin-400.css",
+    "latin-ext-400.css",
+    "latin-ext.css",
+    "latin.css",
+    "vietnamese-400.css",
+    "vietnamese.css"
+   ],
+   "recommended_css": [
+    "400.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Archivo",
+   "slug": "archivo",
+   "package": "@fontsource-variable/archivo",
+   "variable": true,
+   "category": "sans-serif",
+   "roles": [
+    "display",
+    "sans"
+   ],
+   "tags": [
+    "grotesk",
+    "widths",
+    "neutral",
+    "versatile"
+   ],
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "axes": {
+    "ital": [
+     0.0,
+     1.0
+    ],
+    "wdth": [
+     62.0,
+     125.0
+    ],
+    "wght": [
+     100.0,
+     900.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "standard-italic.css",
+    "standard.css",
+    "wdth-italic.css",
+    "wdth.css",
+    "wght-italic.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "standard.css",
+    "wght-italic.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Bricolage Grotesque",
+   "slug": "bricolage-grotesque",
+   "package": "@fontsource-variable/bricolage-grotesque",
+   "variable": true,
+   "category": "sans-serif",
+   "roles": [
+    "display",
+    "sans"
+   ],
+   "tags": [
+    "expressive",
+    "playful",
+    "contemporary",
+    "optical"
+   ],
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800
+   ],
+   "styles": [
+    "normal"
+   ],
+   "axes": {
+    "opsz": [
+     12.0,
+     96.0
+    ],
+    "wdth": [
+     75.0,
+     100.0
+    ],
+    "wght": [
+     200.0,
+     800.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "opsz.css",
+    "standard.css",
+    "wdth.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "standard.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Unbounded",
+   "slug": "unbounded",
+   "package": "@fontsource-variable/unbounded",
+   "variable": true,
+   "category": "sans-serif",
+   "roles": [
+    "display"
+   ],
+   "tags": [
+    "wide",
+    "futuristic",
+    "tech",
+    "youth"
+   ],
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "normal"
+   ],
+   "axes": {
+    "wght": [
+     200.0,
+     900.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "index.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Syne",
+   "slug": "syne",
+   "package": "@fontsource-variable/syne",
+   "variable": true,
+   "category": "sans-serif",
+   "roles": [
+    "display"
+   ],
+   "tags": [
+    "art",
+    "culture",
+    "experimental"
+   ],
+   "subsets": [
+    "greek",
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    400,
+    500,
+    600,
+    700,
+    800
+   ],
+   "styles": [
+    "normal"
+   ],
+   "axes": {
+    "wght": [
+     400.0,
+     800.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "index.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Familjen Grotesk",
+   "slug": "familjen-grotesk",
+   "package": "@fontsource-variable/familjen-grotesk",
+   "variable": true,
+   "category": "sans-serif",
+   "roles": [
+    "display",
+    "sans"
+   ],
+   "tags": [
+    "friendly",
+    "grotesk",
+    "warm"
+   ],
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    400,
+    500,
+    600,
+    700
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "axes": {
+    "ital": [
+     0.0,
+     1.0
+    ],
+    "wght": [
+     400.0,
+     700.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "wght-italic.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "index.css",
+    "wght-italic.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Instrument Sans",
+   "slug": "instrument-sans",
+   "package": "@fontsource-variable/instrument-sans",
+   "variable": true,
+   "category": "sans-serif",
+   "roles": [
+    "sans"
+   ],
+   "tags": [
+    "neutral",
+    "modern",
+    "widths",
+    "clean"
+   ],
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    400,
+    500,
+    600,
+    700
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "axes": {
+    "ital": [
+     0.0,
+     1.0
+    ],
+    "wdth": [
+     75.0,
+     100.0
+    ],
+    "wght": [
+     400.0,
+     700.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "standard-italic.css",
+    "standard.css",
+    "wdth-italic.css",
+    "wdth.css",
+    "wght-italic.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "standard.css",
+    "wght-italic.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Instrument Serif",
+   "slug": "instrument-serif",
+   "package": "@fontsource/instrument-serif",
+   "variable": false,
+   "category": "serif",
+   "roles": [
+    "display"
+   ],
+   "tags": [
+    "elegant",
+    "editorial",
+    "serif",
+    "fashion"
+   ],
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    400
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "axes": {},
+   "css_files": [
+    "400-italic.css",
+    "400.css",
+    "index.css",
+    "latin-400-italic.css",
+    "latin-400.css",
+    "latin-ext-400-italic.css",
+    "latin-ext-400.css",
+    "latin-ext-italic.css",
+    "latin-ext.css",
+    "latin-italic.css",
+    "latin.css"
+   ],
+   "recommended_css": [
+    "400-italic.css",
+    "400.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Fraunces",
+   "slug": "fraunces",
+   "package": "@fontsource-variable/fraunces",
+   "variable": true,
+   "category": "serif",
+   "roles": [
+    "display",
+    "serif"
+   ],
+   "tags": [
+    "soft",
+    "warm",
+    "wonky",
+    "editorial",
+    "serif"
+   ],
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "axes": {
+    "ital": [
+     0.0,
+     1.0
+    ],
+    "opsz": [
+     9.0,
+     144.0
+    ],
+    "wght": [
+     100.0,
+     900.0
+    ],
+    "SOFT": [
+     0.0,
+     100.0
+    ],
+    "WONK": [
+     0.0,
+     1.0
+    ]
+   },
+   "css_files": [
+    "full-italic.css",
+    "full.css",
+    "index.css",
+    "opsz-italic.css",
+    "opsz.css",
+    "soft-italic.css",
+    "soft.css",
+    "standard-italic.css",
+    "standard.css",
+    "wght-italic.css",
+    "wght.css",
+    "wonk-italic.css",
+    "wonk.css"
+   ],
+   "recommended_css": [
+    "full.css",
+    "wght-italic.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Bodoni Moda",
+   "slug": "bodoni-moda",
+   "package": "@fontsource-variable/bodoni-moda",
+   "variable": true,
+   "category": "serif",
+   "roles": [
+    "display"
+   ],
+   "tags": [
+    "luxury",
+    "fashion",
+    "serif",
+    "contrast"
+   ],
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "math",
+    "symbols"
+   ],
+   "weights": [
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "axes": {
+    "ital": [
+     0.0,
+     1.0
+    ],
+    "opsz": [
+     6.0,
+     96.0
+    ],
+    "wght": [
+     400.0,
+     900.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "opsz-italic.css",
+    "opsz.css",
+    "standard-italic.css",
+    "standard.css",
+    "wght-italic.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "standard.css",
+    "wght-italic.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "DM Serif Display",
+   "slug": "dm-serif-display",
+   "package": "@fontsource/dm-serif-display",
+   "variable": false,
+   "category": "serif",
+   "roles": [
+    "display"
+   ],
+   "tags": [
+    "editorial",
+    "serif",
+    "classic"
+   ],
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    400
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "axes": {},
+   "css_files": [
+    "400-italic.css",
+    "400.css",
+    "index.css",
+    "latin-400-italic.css",
+    "latin-400.css",
+    "latin-ext-400-italic.css",
+    "latin-ext-400.css",
+    "latin-ext-italic.css",
+    "latin-ext.css",
+    "latin-italic.css",
+    "latin.css"
+   ],
+   "recommended_css": [
+    "400-italic.css",
+    "400.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Young Serif",
+   "slug": "young-serif",
+   "package": "@fontsource/young-serif",
+   "variable": false,
+   "category": "serif",
+   "roles": [
+    "display"
+   ],
+   "tags": [
+    "warm",
+    "serif",
+    "friendly"
+   ],
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    400
+   ],
+   "styles": [
+    "normal"
+   ],
+   "axes": {},
+   "css_files": [
+    "400.css",
+    "index.css",
+    "latin-400.css",
+    "latin-ext-400.css",
+    "latin-ext.css",
+    "latin.css"
+   ],
+   "recommended_css": [
+    "400.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Cormorant",
+   "slug": "cormorant",
+   "package": "@fontsource-variable/cormorant",
+   "variable": true,
+   "category": "serif",
+   "roles": [
+    "display",
+    "serif"
+   ],
+   "tags": [
+    "luxury",
+    "elegant",
+    "serif"
+   ],
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    300,
+    400,
+    500,
+    600,
+    700
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "axes": {
+    "ital": [
+     0.0,
+     1.0
+    ],
+    "wght": [
+     300.0,
+     700.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "wght-italic.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "index.css",
+    "wght-italic.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Geologica",
+   "slug": "geologica",
+   "package": "@fontsource-variable/geologica",
+   "variable": true,
+   "category": "sans-serif",
+   "roles": [
+    "sans",
+    "display"
+   ],
+   "tags": [
+    "geometric",
+    "sharp-soft-axis",
+    "technical",
+    "contemporary"
+   ],
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "normal"
+   ],
+   "axes": {
+    "slnt": [
+     -12.0,
+     0.0
+    ],
+    "wght": [
+     100.0,
+     900.0
+    ],
+    "CRSV": [
+     0.0,
+     1.0
+    ],
+    "SHRP": [
+     0.0,
+     100.0
+    ]
+   },
+   "css_files": [
+    "crsv.css",
+    "full.css",
+    "index.css",
+    "shrp.css",
+    "slnt.css",
+    "standard.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "full.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Onest",
+   "slug": "onest",
+   "package": "@fontsource-variable/onest",
+   "variable": true,
+   "category": "sans-serif",
+   "roles": [
+    "sans"
+   ],
+   "tags": [
+    "neutral",
+    "modern",
+    "cyrillic"
+   ],
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "math",
+    "symbols",
+    "vietnamese"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "normal"
+   ],
+   "axes": {
+    "wght": [
+     100.0,
+     900.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "index.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Manrope",
+   "slug": "manrope",
+   "package": "@fontsource-variable/manrope",
+   "variable": true,
+   "category": "sans-serif",
+   "roles": [
+    "sans"
+   ],
+   "tags": [
+    "modern",
+    "geometric",
+    "tech"
+   ],
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800
+   ],
+   "styles": [
+    "normal"
+   ],
+   "axes": {
+    "wght": [
+     200.0,
+     800.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "index.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Plus Jakarta Sans",
+   "slug": "plus-jakarta-sans",
+   "package": "@fontsource-variable/plus-jakarta-sans",
+   "variable": true,
+   "category": "sans-serif",
+   "roles": [
+    "sans"
+   ],
+   "tags": [
+    "friendly",
+    "modern",
+    "startup"
+   ],
+   "subsets": [
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "axes": {
+    "ital": [
+     0.0,
+     1.0
+    ],
+    "wght": [
+     200.0,
+     800.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "wght-italic.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "index.css",
+    "wght-italic.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Figtree",
+   "slug": "figtree",
+   "package": "@fontsource-variable/figtree",
+   "variable": true,
+   "category": "sans-serif",
+   "roles": [
+    "sans"
+   ],
+   "tags": [
+    "friendly",
+    "clean",
+    "readable"
+   ],
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "axes": {
+    "ital": [
+     0.0,
+     1.0
+    ],
+    "wght": [
+     300.0,
+     900.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "wght-italic.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "index.css",
+    "wght-italic.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Outfit",
+   "slug": "outfit",
+   "package": "@fontsource-variable/outfit",
+   "variable": true,
+   "category": "sans-serif",
+   "roles": [
+    "sans",
+    "display"
+   ],
+   "tags": [
+    "geometric",
+    "round",
+    "friendly"
+   ],
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "normal"
+   ],
+   "axes": {
+    "wght": [
+     100.0,
+     900.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "index.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Hanken Grotesk",
+   "slug": "hanken-grotesk",
+   "package": "@fontsource-variable/hanken-grotesk",
+   "variable": true,
+   "category": "sans-serif",
+   "roles": [
+    "sans"
+   ],
+   "tags": [
+    "neutral",
+    "grotesk",
+    "readable"
+   ],
+   "subsets": [
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "axes": {
+    "ital": [
+     0.0,
+     1.0
+    ],
+    "wght": [
+     100.0,
+     900.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "wght-italic.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "index.css",
+    "wght-italic.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Schibsted Grotesk",
+   "slug": "schibsted-grotesk",
+   "package": "@fontsource-variable/schibsted-grotesk",
+   "variable": true,
+   "category": "sans-serif",
+   "roles": [
+    "sans"
+   ],
+   "tags": [
+    "editorial",
+    "news",
+    "neutral"
+   ],
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "axes": {
+    "ital": [
+     0.0,
+     1.0
+    ],
+    "wght": [
+     400.0,
+     900.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "wght-italic.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "index.css",
+    "wght-italic.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Public Sans",
+   "slug": "public-sans",
+   "package": "@fontsource-variable/public-sans",
+   "variable": true,
+   "category": "sans-serif",
+   "roles": [
+    "sans"
+   ],
+   "tags": [
+    "institutional",
+    "government",
+    "neutral",
+    "accessible"
+   ],
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "axes": {
+    "ital": [
+     0.0,
+     1.0
+    ],
+    "wght": [
+     100.0,
+     900.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "wght-italic.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "index.css",
+    "wght-italic.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Atkinson Hyperlegible Next",
+   "slug": "atkinson-hyperlegible-next",
+   "package": "@fontsource-variable/atkinson-hyperlegible-next",
+   "variable": true,
+   "category": "sans-serif",
+   "roles": [
+    "sans"
+   ],
+   "tags": [
+    "accessibility",
+    "readable",
+    "institutional"
+   ],
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "axes": {
+    "ital": [
+     0.0,
+     1.0
+    ],
+    "wght": [
+     200.0,
+     800.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "wght-italic.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "index.css",
+    "wght-italic.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Noto Sans",
+   "slug": "noto-sans",
+   "package": "@fontsource-variable/noto-sans",
+   "variable": true,
+   "category": "sans-serif",
+   "roles": [
+    "sans"
+   ],
+   "tags": [
+    "global",
+    "script-coverage",
+    "neutral"
+   ],
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "devanagari",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "axes": {
+    "ital": [
+     0.0,
+     1.0
+    ],
+    "wdth": [
+     62.5,
+     100.0
+    ],
+    "wght": [
+     100.0,
+     900.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "standard-italic.css",
+    "standard.css",
+    "wdth-italic.css",
+    "wdth.css",
+    "wght-italic.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "standard.css",
+    "wght-italic.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "IBM Plex Sans",
+   "slug": "ibm-plex-sans",
+   "package": "@fontsource-variable/ibm-plex-sans",
+   "variable": true,
+   "category": "sans-serif",
+   "roles": [
+    "sans"
+   ],
+   "tags": [
+    "corporate",
+    "technical",
+    "engineering"
+   ],
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "axes": {
+    "ital": [
+     0.0,
+     1.0
+    ],
+    "wdth": [
+     75.0,
+     100.0
+    ],
+    "wght": [
+     100.0,
+     700.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "standard-italic.css",
+    "standard.css",
+    "wdth-italic.css",
+    "wdth.css",
+    "wght-italic.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "standard.css",
+    "wght-italic.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Work Sans",
+   "slug": "work-sans",
+   "package": "@fontsource-variable/work-sans",
+   "variable": true,
+   "category": "sans-serif",
+   "roles": [
+    "sans"
+   ],
+   "tags": [
+    "neutral",
+    "grotesk"
+   ],
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "axes": {
+    "ital": [
+     0.0,
+     1.0
+    ],
+    "wght": [
+     100.0,
+     900.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "wght-italic.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "index.css",
+    "wght-italic.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Albert Sans",
+   "slug": "albert-sans",
+   "package": "@fontsource-variable/albert-sans",
+   "variable": true,
+   "category": "sans-serif",
+   "roles": [
+    "sans"
+   ],
+   "tags": [
+    "geometric",
+    "clean",
+    "scandinavian"
+   ],
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "axes": {
+    "ital": [
+     0.0,
+     1.0
+    ],
+    "wght": [
+     100.0,
+     900.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "wght-italic.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "index.css",
+    "wght-italic.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Red Hat Display",
+   "slug": "red-hat-display",
+   "package": "@fontsource-variable/red-hat-display",
+   "variable": true,
+   "category": "sans-serif",
+   "roles": [
+    "display",
+    "sans"
+   ],
+   "tags": [
+    "corporate",
+    "tech",
+    "geometric"
+   ],
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "axes": {
+    "ital": [
+     0.0,
+     1.0
+    ],
+    "wght": [
+     300.0,
+     900.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "wght-italic.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "index.css",
+    "wght-italic.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Red Hat Text",
+   "slug": "red-hat-text",
+   "package": "@fontsource-variable/red-hat-text",
+   "variable": true,
+   "category": "sans-serif",
+   "roles": [
+    "sans"
+   ],
+   "tags": [
+    "corporate",
+    "tech",
+    "readable"
+   ],
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    300,
+    400,
+    500,
+    600,
+    700
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "axes": {
+    "ital": [
+     0.0,
+     1.0
+    ],
+    "wght": [
+     300.0,
+     700.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "wght-italic.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "index.css",
+    "wght-italic.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Mona Sans",
+   "slug": "mona-sans",
+   "package": "@fontsource-variable/mona-sans",
+   "variable": true,
+   "category": "sans-serif",
+   "roles": [
+    "sans",
+    "display"
+   ],
+   "tags": [
+    "widths",
+    "tech",
+    "modern"
+   ],
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "axes": {
+    "ital": [
+     0.0,
+     1.0
+    ],
+    "wdth": [
+     75.0,
+     125.0
+    ],
+    "wght": [
+     200.0,
+     900.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "standard-italic.css",
+    "standard.css",
+    "wdth-italic.css",
+    "wdth.css",
+    "wght-italic.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "standard.css",
+    "wght-italic.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Lexend",
+   "slug": "lexend",
+   "package": "@fontsource-variable/lexend",
+   "variable": true,
+   "category": "sans-serif",
+   "roles": [
+    "sans"
+   ],
+   "tags": [
+    "readable",
+    "education",
+    "friendly"
+   ],
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "normal"
+   ],
+   "axes": {
+    "wght": [
+     100.0,
+     900.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "index.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Source Sans 3",
+   "slug": "source-sans-3",
+   "package": "@fontsource-variable/source-sans-3",
+   "variable": true,
+   "category": "sans-serif",
+   "roles": [
+    "sans"
+   ],
+   "tags": [
+    "neutral",
+    "readable",
+    "classic"
+   ],
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "axes": {
+    "ital": [
+     0.0,
+     1.0
+    ],
+    "wght": [
+     200.0,
+     900.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "wght-italic.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "index.css",
+    "wght-italic.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Golos Text",
+   "slug": "golos-text",
+   "package": "@fontsource-variable/golos-text",
+   "variable": true,
+   "category": "sans-serif",
+   "roles": [
+    "sans"
+   ],
+   "tags": [
+    "neutral",
+    "cyrillic",
+    "readable"
+   ],
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "normal"
+   ],
+   "axes": {
+    "wght": [
+     400.0,
+     900.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "index.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Rubik",
+   "slug": "rubik",
+   "package": "@fontsource-variable/rubik",
+   "variable": true,
+   "category": "sans-serif",
+   "roles": [
+    "sans",
+    "display"
+   ],
+   "tags": [
+    "rounded-corners",
+    "friendly",
+    "hebrew",
+    "cyrillic"
+   ],
+   "subsets": [
+    "arabic",
+    "cyrillic",
+    "cyrillic-ext",
+    "hebrew",
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "axes": {
+    "ital": [
+     0.0,
+     1.0
+    ],
+    "wght": [
+     300.0,
+     900.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "wght-italic.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "index.css",
+    "wght-italic.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Nunito",
+   "slug": "nunito",
+   "package": "@fontsource-variable/nunito",
+   "variable": true,
+   "category": "sans-serif",
+   "roles": [
+    "sans"
+   ],
+   "tags": [
+    "rounded",
+    "friendly",
+    "children"
+   ],
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "axes": {
+    "ital": [
+     0.0,
+     1.0
+    ],
+    "wght": [
+     200.0,
+     1000.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "wght-italic.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "index.css",
+    "wght-italic.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Quicksand",
+   "slug": "quicksand",
+   "package": "@fontsource-variable/quicksand",
+   "variable": true,
+   "category": "sans-serif",
+   "roles": [
+    "sans",
+    "display"
+   ],
+   "tags": [
+    "rounded",
+    "light",
+    "friendly"
+   ],
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    300,
+    400,
+    500,
+    600,
+    700
+   ],
+   "styles": [
+    "normal"
+   ],
+   "axes": {
+    "wght": [
+     300.0,
+     700.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "index.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Baloo 2",
+   "slug": "baloo-2",
+   "package": "@fontsource-variable/baloo-2",
+   "variable": true,
+   "category": "display",
+   "roles": [
+    "display"
+   ],
+   "tags": [
+    "playful",
+    "rounded",
+    "devanagari"
+   ],
+   "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    400,
+    500,
+    600,
+    700,
+    800
+   ],
+   "styles": [
+    "normal"
+   ],
+   "axes": {
+    "wght": [
+     400.0,
+     800.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "index.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Source Serif 4",
+   "slug": "source-serif-4",
+   "package": "@fontsource-variable/source-serif-4",
+   "variable": true,
+   "category": "serif",
+   "roles": [
+    "serif"
+   ],
+   "tags": [
+    "editorial",
+    "reading",
+    "classic"
+   ],
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "axes": {
+    "ital": [
+     0.0,
+     1.0
+    ],
+    "opsz": [
+     8.0,
+     60.0
+    ],
+    "wght": [
+     200.0,
+     900.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "opsz-italic.css",
+    "opsz.css",
+    "standard-italic.css",
+    "standard.css",
+    "wght-italic.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "standard.css",
+    "wght-italic.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Literata",
+   "slug": "literata",
+   "package": "@fontsource-variable/literata",
+   "variable": true,
+   "category": "serif",
+   "roles": [
+    "serif"
+   ],
+   "tags": [
+    "reading",
+    "books",
+    "warm"
+   ],
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "axes": {
+    "ital": [
+     0.0,
+     1.0
+    ],
+    "opsz": [
+     7.0,
+     72.0
+    ],
+    "wght": [
+     200.0,
+     900.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "opsz-italic.css",
+    "opsz.css",
+    "standard-italic.css",
+    "standard.css",
+    "wght-italic.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "standard.css",
+    "wght-italic.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Newsreader",
+   "slug": "newsreader",
+   "package": "@fontsource-variable/newsreader",
+   "variable": true,
+   "category": "serif",
+   "roles": [
+    "serif"
+   ],
+   "tags": [
+    "editorial",
+    "news",
+    "reading"
+   ],
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "axes": {
+    "ital": [
+     0.0,
+     1.0
+    ],
+    "opsz": [
+     6.0,
+     72.0
+    ],
+    "wght": [
+     200.0,
+     800.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "opsz-italic.css",
+    "opsz.css",
+    "standard-italic.css",
+    "standard.css",
+    "wght-italic.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "standard.css",
+    "wght-italic.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Spectral",
+   "slug": "spectral",
+   "package": "@fontsource/spectral",
+   "variable": false,
+   "category": "serif",
+   "roles": [
+    "serif"
+   ],
+   "tags": [
+    "elegant",
+    "reading",
+    "literary"
+   ],
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "axes": {},
+   "css_files": [
+    "200-italic.css",
+    "200.css",
+    "300-italic.css",
+    "300.css",
+    "400-italic.css",
+    "400.css",
+    "500-italic.css",
+    "500.css",
+    "600-italic.css",
+    "600.css",
+    "700-italic.css",
+    "700.css",
+    "800-italic.css",
+    "800.css",
+    "cyrillic-200-italic.css",
+    "cyrillic-200.css",
+    "cyrillic-300-italic.css",
+    "cyrillic-300.css",
+    "cyrillic-400-italic.css",
+    "cyrillic-400.css",
+    "cyrillic-500-italic.css",
+    "cyrillic-500.css",
+    "cyrillic-600-italic.css",
+    "cyrillic-600.css",
+    "cyrillic-700-italic.css",
+    "cyrillic-700.css",
+    "cyrillic-800-italic.css",
+    "cyrillic-800.css",
+    "cyrillic-ext-200-italic.css",
+    "cyrillic-ext-200.css",
+    "cyrillic-ext-300-italic.css",
+    "cyrillic-ext-300.css",
+    "cyrillic-ext-400-italic.css",
+    "cyrillic-ext-400.css",
+    "cyrillic-ext-500-italic.css",
+    "cyrillic-ext-500.css",
+    "cyrillic-ext-600-italic.css",
+    "cyrillic-ext-600.css",
+    "cyrillic-ext-700-italic.css",
+    "cyrillic-ext-700.css",
+    "cyrillic-ext-800-italic.css",
+    "cyrillic-ext-800.css",
+    "cyrillic-ext-italic.css",
+    "cyrillic-ext.css",
+    "cyrillic-italic.css",
+    "cyrillic.css",
+    "index.css",
+    "latin-200-italic.css",
+    "latin-200.css",
+    "latin-300-italic.css",
+    "latin-300.css",
+    "latin-400-italic.css",
+    "latin-400.css",
+    "latin-500-italic.css",
+    "latin-500.css",
+    "latin-600-italic.css",
+    "latin-600.css",
+    "latin-700-italic.css",
+    "latin-700.css",
+    "latin-800-italic.css",
+    "latin-800.css",
+    "latin-ext-200-italic.css",
+    "latin-ext-200.css",
+    "latin-ext-300-italic.css",
+    "latin-ext-300.css",
+    "latin-ext-400-italic.css",
+    "latin-ext-400.css",
+    "latin-ext-500-italic.css",
+    "latin-ext-500.css",
+    "latin-ext-600-italic.css",
+    "latin-ext-600.css",
+    "latin-ext-700-italic.css",
+    "latin-ext-700.css",
+    "latin-ext-800-italic.css",
+    "latin-ext-800.css",
+    "latin-ext-italic.css",
+    "latin-ext.css",
+    "latin-italic.css",
+    "latin.css",
+    "vietnamese-200-italic.css",
+    "vietnamese-200.css",
+    "vietnamese-300-italic.css",
+    "vietnamese-300.css",
+    "vietnamese-400-italic.css",
+    "vietnamese-400.css",
+    "vietnamese-500-italic.css",
+    "vietnamese-500.css",
+    "vietnamese-600-italic.css",
+    "vietnamese-600.css",
+    "vietnamese-700-italic.css",
+    "vietnamese-700.css",
+    "vietnamese-800-italic.css",
+    "vietnamese-800.css",
+    "vietnamese-italic.css",
+    "vietnamese.css"
+   ],
+   "recommended_css": [
+    "200-italic.css",
+    "200.css",
+    "300-italic.css",
+    "300.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Lora",
+   "slug": "lora",
+   "package": "@fontsource-variable/lora",
+   "variable": true,
+   "category": "serif",
+   "roles": [
+    "serif"
+   ],
+   "tags": [
+    "warm",
+    "reading",
+    "classic"
+   ],
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "math",
+    "symbols",
+    "vietnamese"
+   ],
+   "weights": [
+    400,
+    500,
+    600,
+    700
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "axes": {
+    "ital": [
+     0.0,
+     1.0
+    ],
+    "wght": [
+     400.0,
+     700.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "wght-italic.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "index.css",
+    "wght-italic.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Martian Mono",
+   "slug": "martian-mono",
+   "package": "@fontsource-variable/martian-mono",
+   "variable": true,
+   "category": "monospace",
+   "roles": [
+    "mono"
+   ],
+   "tags": [
+    "technical",
+    "widths",
+    "cyrillic"
+   ],
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800
+   ],
+   "styles": [
+    "normal"
+   ],
+   "axes": {
+    "wdth": [
+     75.0,
+     112.5
+    ],
+    "wght": [
+     100.0,
+     800.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "standard.css",
+    "wdth.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "standard.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "JetBrains Mono",
+   "slug": "jetbrains-mono",
+   "package": "@fontsource-variable/jetbrains-mono",
+   "variable": true,
+   "category": "monospace",
+   "roles": [
+    "mono"
+   ],
+   "tags": [
+    "code",
+    "technical"
+   ],
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "axes": {
+    "ital": [
+     0.0,
+     1.0
+    ],
+    "wght": [
+     100.0,
+     800.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "wght-italic.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "index.css",
+    "wght-italic.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "IBM Plex Mono",
+   "slug": "ibm-plex-mono",
+   "package": "@fontsource/ibm-plex-mono",
+   "variable": false,
+   "category": "monospace",
+   "roles": [
+    "mono"
+   ],
+   "tags": [
+    "technical",
+    "corporate"
+   ],
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "axes": {},
+   "css_files": [
+    "100-italic.css",
+    "100.css",
+    "200-italic.css",
+    "200.css",
+    "300-italic.css",
+    "300.css",
+    "400-italic.css",
+    "400.css",
+    "500-italic.css",
+    "500.css",
+    "600-italic.css",
+    "600.css",
+    "700-italic.css",
+    "700.css",
+    "cyrillic-100-italic.css",
+    "cyrillic-100.css",
+    "cyrillic-200-italic.css",
+    "cyrillic-200.css",
+    "cyrillic-300-italic.css",
+    "cyrillic-300.css",
+    "cyrillic-400-italic.css",
+    "cyrillic-400.css",
+    "cyrillic-500-italic.css",
+    "cyrillic-500.css",
+    "cyrillic-600-italic.css",
+    "cyrillic-600.css",
+    "cyrillic-700-italic.css",
+    "cyrillic-700.css",
+    "cyrillic-ext-100-italic.css",
+    "cyrillic-ext-100.css",
+    "cyrillic-ext-200-italic.css",
+    "cyrillic-ext-200.css",
+    "cyrillic-ext-300-italic.css",
+    "cyrillic-ext-300.css",
+    "cyrillic-ext-400-italic.css",
+    "cyrillic-ext-400.css",
+    "cyrillic-ext-500-italic.css",
+    "cyrillic-ext-500.css",
+    "cyrillic-ext-600-italic.css",
+    "cyrillic-ext-600.css",
+    "cyrillic-ext-700-italic.css",
+    "cyrillic-ext-700.css",
+    "cyrillic-ext-italic.css",
+    "cyrillic-ext.css",
+    "cyrillic-italic.css",
+    "cyrillic.css",
+    "index.css",
+    "latin-100-italic.css",
+    "latin-100.css",
+    "latin-200-italic.css",
+    "latin-200.css",
+    "latin-300-italic.css",
+    "latin-300.css",
+    "latin-400-italic.css",
+    "latin-400.css",
+    "latin-500-italic.css",
+    "latin-500.css",
+    "latin-600-italic.css",
+    "latin-600.css",
+    "latin-700-italic.css",
+    "latin-700.css",
+    "latin-ext-100-italic.css",
+    "latin-ext-100.css",
+    "latin-ext-200-italic.css",
+    "latin-ext-200.css",
+    "latin-ext-300-italic.css",
+    "latin-ext-300.css",
+    "latin-ext-400-italic.css",
+    "latin-ext-400.css",
+    "latin-ext-500-italic.css",
+    "latin-ext-500.css",
+    "latin-ext-600-italic.css",
+    "latin-ext-600.css",
+    "latin-ext-700-italic.css",
+    "latin-ext-700.css",
+    "latin-ext-italic.css",
+    "latin-ext.css",
+    "latin-italic.css",
+    "latin.css",
+    "vietnamese-100-italic.css",
+    "vietnamese-100.css",
+    "vietnamese-200-italic.css",
+    "vietnamese-200.css",
+    "vietnamese-300-italic.css",
+    "vietnamese-300.css",
+    "vietnamese-400-italic.css",
+    "vietnamese-400.css",
+    "vietnamese-500-italic.css",
+    "vietnamese-500.css",
+    "vietnamese-600-italic.css",
+    "vietnamese-600.css",
+    "vietnamese-700-italic.css",
+    "vietnamese-700.css",
+    "vietnamese-italic.css",
+    "vietnamese.css"
+   ],
+   "recommended_css": [
+    "100-italic.css",
+    "100.css",
+    "200-italic.css",
+    "200.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "DM Mono",
+   "slug": "dm-mono",
+   "package": "@fontsource/dm-mono",
+   "variable": false,
+   "category": "monospace",
+   "roles": [
+    "mono"
+   ],
+   "tags": [
+    "clean",
+    "technical"
+   ],
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    300,
+    400,
+    500
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "axes": {},
+   "css_files": [
+    "300-italic.css",
+    "300.css",
+    "400-italic.css",
+    "400.css",
+    "500-italic.css",
+    "500.css",
+    "index.css",
+    "latin-300-italic.css",
+    "latin-300.css",
+    "latin-400-italic.css",
+    "latin-400.css",
+    "latin-500-italic.css",
+    "latin-500.css",
+    "latin-ext-300-italic.css",
+    "latin-ext-300.css",
+    "latin-ext-400-italic.css",
+    "latin-ext-400.css",
+    "latin-ext-500-italic.css",
+    "latin-ext-500.css",
+    "latin-ext-italic.css",
+    "latin-ext.css",
+    "latin-italic.css",
+    "latin.css"
+   ],
+   "recommended_css": [
+    "300-italic.css",
+    "300.css",
+    "400-italic.css",
+    "400.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Red Hat Mono",
+   "slug": "red-hat-mono",
+   "package": "@fontsource-variable/red-hat-mono",
+   "variable": true,
+   "category": "monospace",
+   "roles": [
+    "mono"
+   ],
+   "tags": [
+    "technical",
+    "corporate"
+   ],
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    300,
+    400,
+    500,
+    600,
+    700
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "axes": {
+    "ital": [
+     0.0,
+     1.0
+    ],
+    "wght": [
+     300.0,
+     700.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "wght-italic.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "index.css",
+    "wght-italic.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Azeret Mono",
+   "slug": "azeret-mono",
+   "package": "@fontsource-variable/azeret-mono",
+   "variable": true,
+   "category": "monospace",
+   "roles": [
+    "mono"
+   ],
+   "tags": [
+    "technical",
+    "geometric"
+   ],
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "italic",
+    "normal"
+   ],
+   "axes": {
+    "ital": [
+     0.0,
+     1.0
+    ],
+    "wght": [
+     100.0,
+     900.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "wght-italic.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "index.css",
+    "wght-italic.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Fira Code",
+   "slug": "fira-code",
+   "package": "@fontsource-variable/fira-code",
+   "variable": true,
+   "category": "monospace",
+   "roles": [
+    "mono"
+   ],
+   "tags": [
+    "code"
+   ],
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "greek",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "symbols2"
+   ],
+   "weights": [
+    300,
+    400,
+    500,
+    600,
+    700
+   ],
+   "styles": [
+    "normal"
+   ],
+   "axes": {
+    "wght": [
+     300.0,
+     700.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "index.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Doto",
+   "slug": "doto",
+   "package": "@fontsource-variable/doto",
+   "variable": true,
+   "category": "sans-serif",
+   "roles": [
+    "special"
+   ],
+   "tags": [
+    "dot-matrix",
+    "pixel",
+    "nodes",
+    "digital"
+   ],
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "normal"
+   ],
+   "axes": {
+    "wght": [
+     100.0,
+     900.0
+    ],
+    "ROND": [
+     0.0,
+     100.0
+    ]
+   },
+   "css_files": [
+    "full.css",
+    "index.css",
+    "rond.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "full.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Silkscreen",
+   "slug": "silkscreen",
+   "package": "@fontsource/silkscreen",
+   "variable": false,
+   "category": "display",
+   "roles": [
+    "special"
+   ],
+   "tags": [
+    "pixel",
+    "digital",
+    "legible-small"
+   ],
+   "subsets": [
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    400,
+    700
+   ],
+   "styles": [
+    "normal"
+   ],
+   "axes": {},
+   "css_files": [
+    "400.css",
+    "700.css",
+    "index.css",
+    "latin-400.css",
+    "latin-700.css",
+    "latin-ext-400.css",
+    "latin-ext-700.css",
+    "latin-ext.css",
+    "latin.css"
+   ],
+   "recommended_css": [
+    "400.css",
+    "700.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Pixelify Sans",
+   "slug": "pixelify-sans",
+   "package": "@fontsource-variable/pixelify-sans",
+   "variable": true,
+   "category": "display",
+   "roles": [
+    "special"
+   ],
+   "tags": [
+    "pixel",
+    "playful",
+    "digital"
+   ],
+   "subsets": [
+    "cyrillic",
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    400,
+    500,
+    600,
+    700
+   ],
+   "styles": [
+    "normal"
+   ],
+   "axes": {
+    "wght": [
+     400.0,
+     700.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "index.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Sixtyfour",
+   "slug": "sixtyfour",
+   "package": "@fontsource-variable/sixtyfour",
+   "variable": true,
+   "category": "monospace",
+   "roles": [
+    "special"
+   ],
+   "tags": [
+    "pixel",
+    "retro",
+    "scanline"
+   ],
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "math",
+    "symbols"
+   ],
+   "weights": [
+    400
+   ],
+   "styles": [
+    "normal"
+   ],
+   "axes": {
+    "BLED": [
+     0.0,
+     100.0
+    ],
+    "SCAN": [
+     -53.0,
+     100.0
+    ]
+   },
+   "css_files": [
+    "bled.css",
+    "full.css",
+    "index.css",
+    "scan.css"
+   ],
+   "recommended_css": [
+    "full.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "VT323",
+   "slug": "vt323",
+   "package": "@fontsource/vt323",
+   "variable": false,
+   "category": "monospace",
+   "roles": [
+    "special"
+   ],
+   "tags": [
+    "terminal",
+    "retro"
+   ],
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    400
+   ],
+   "styles": [
+    "normal"
+   ],
+   "axes": {},
+   "css_files": [
+    "400.css",
+    "index.css",
+    "latin-400.css",
+    "latin-ext-400.css",
+    "latin-ext.css",
+    "latin.css",
+    "vietnamese-400.css",
+    "vietnamese.css"
+   ],
+   "recommended_css": [
+    "400.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Caveat",
+   "slug": "caveat",
+   "package": "@fontsource/caveat",
+   "variable": false,
+   "category": "handwriting",
+   "roles": [
+    "hand"
+   ],
+   "tags": [
+    "handwritten",
+    "casual"
+   ],
+   "subsets": [
+    "cyrillic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    400,
+    500,
+    600,
+    700
+   ],
+   "styles": [
+    "normal"
+   ],
+   "axes": {
+    "wght": [
+     400.0,
+     700.0
+    ]
+   },
+   "css_files": [
+    "400.css",
+    "500.css",
+    "600.css",
+    "700.css",
+    "cyrillic-400.css",
+    "cyrillic-500.css",
+    "cyrillic-600.css",
+    "cyrillic-700.css",
+    "cyrillic-ext-400.css",
+    "cyrillic-ext-500.css",
+    "cyrillic-ext-600.css",
+    "cyrillic-ext-700.css",
+    "cyrillic-ext.css",
+    "cyrillic.css",
+    "index.css",
+    "latin-400.css",
+    "latin-500.css",
+    "latin-600.css",
+    "latin-700.css",
+    "latin-ext-400.css",
+    "latin-ext-500.css",
+    "latin-ext-600.css",
+    "latin-ext-700.css",
+    "latin-ext.css",
+    "latin.css"
+   ],
+   "recommended_css": [
+    "400.css",
+    "500.css",
+    "600.css",
+    "700.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": true
+  },
+  {
+   "family": "Kalam",
+   "slug": "kalam",
+   "package": "@fontsource/kalam",
+   "variable": false,
+   "category": "handwriting",
+   "roles": [
+    "hand"
+   ],
+   "tags": [
+    "handwritten",
+    "warm"
+   ],
+   "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    300,
+    400,
+    700
+   ],
+   "styles": [
+    "normal"
+   ],
+   "axes": {},
+   "css_files": [
+    "300.css",
+    "400.css",
+    "700.css",
+    "devanagari-300.css",
+    "devanagari-400.css",
+    "devanagari-700.css",
+    "devanagari.css",
+    "index.css",
+    "latin-300.css",
+    "latin-400.css",
+    "latin-700.css",
+    "latin-ext-300.css",
+    "latin-ext-400.css",
+    "latin-ext-700.css",
+    "latin-ext.css",
+    "latin.css"
+   ],
+   "recommended_css": [
+    "300.css",
+    "400.css",
+    "700.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Patrick Hand",
+   "slug": "patrick-hand",
+   "package": "@fontsource/patrick-hand",
+   "variable": false,
+   "category": "handwriting",
+   "roles": [
+    "hand"
+   ],
+   "tags": [
+    "handwritten",
+    "friendly"
+   ],
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "vietnamese"
+   ],
+   "weights": [
+    400
+   ],
+   "styles": [
+    "normal"
+   ],
+   "axes": {},
+   "css_files": [
+    "400.css",
+    "index.css",
+    "latin-400.css",
+    "latin-ext-400.css",
+    "latin-ext.css",
+    "latin.css",
+    "vietnamese-400.css",
+    "vietnamese.css"
+   ],
+   "recommended_css": [
+    "400.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Gochi Hand",
+   "slug": "gochi-hand",
+   "package": "@fontsource/gochi-hand",
+   "variable": false,
+   "category": "handwriting",
+   "roles": [
+    "hand"
+   ],
+   "tags": [
+    "handwritten",
+    "playful"
+   ],
+   "subsets": [
+    "latin"
+   ],
+   "weights": [
+    400
+   ],
+   "styles": [
+    "normal"
+   ],
+   "axes": {},
+   "css_files": [
+    "400.css",
+    "index.css",
+    "latin-400.css",
+    "latin.css"
+   ],
+   "recommended_css": [
+    "400.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Noto Sans Armenian",
+   "slug": "noto-sans-armenian",
+   "package": "@fontsource-variable/noto-sans-armenian",
+   "variable": true,
+   "category": "sans-serif",
+   "roles": [
+    "local"
+   ],
+   "tags": [
+    "armenian"
+   ],
+   "subsets": [
+    "armenian",
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "normal"
+   ],
+   "axes": {
+    "wdth": [
+     62.5,
+     100.0
+    ],
+    "wght": [
+     100.0,
+     900.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "standard.css",
+    "wdth.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "standard.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Noto Sans Georgian",
+   "slug": "noto-sans-georgian",
+   "package": "@fontsource-variable/noto-sans-georgian",
+   "variable": true,
+   "category": "sans-serif",
+   "roles": [
+    "local"
+   ],
+   "tags": [
+    "georgian"
+   ],
+   "subsets": [
+    "cyrillic-ext",
+    "georgian",
+    "greek-ext",
+    "latin",
+    "latin-ext",
+    "math",
+    "symbols"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "normal"
+   ],
+   "axes": {
+    "wdth": [
+     62.5,
+     100.0
+    ],
+    "wght": [
+     100.0,
+     900.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "standard.css",
+    "wdth.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "standard.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Noto Sans Arabic",
+   "slug": "noto-sans-arabic",
+   "package": "@fontsource-variable/noto-sans-arabic",
+   "variable": true,
+   "category": "sans-serif",
+   "roles": [
+    "local"
+   ],
+   "tags": [
+    "arabic"
+   ],
+   "subsets": [
+    "arabic",
+    "latin",
+    "latin-ext",
+    "math",
+    "symbols"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "normal"
+   ],
+   "axes": {
+    "wdth": [
+     62.5,
+     100.0
+    ],
+    "wght": [
+     100.0,
+     900.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "standard.css",
+    "wdth.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "standard.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Noto Kufi Arabic",
+   "slug": "noto-kufi-arabic",
+   "package": "@fontsource-variable/noto-kufi-arabic",
+   "variable": true,
+   "category": "sans-serif",
+   "roles": [
+    "local"
+   ],
+   "tags": [
+    "arabic",
+    "geometric"
+   ],
+   "subsets": [
+    "arabic",
+    "latin",
+    "latin-ext",
+    "math",
+    "symbols"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "normal"
+   ],
+   "axes": {
+    "wght": [
+     100.0,
+     900.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "index.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "IBM Plex Sans Arabic",
+   "slug": "ibm-plex-sans-arabic",
+   "package": "@fontsource/ibm-plex-sans-arabic",
+   "variable": false,
+   "category": "sans-serif",
+   "roles": [
+    "local"
+   ],
+   "tags": [
+    "arabic",
+    "corporate"
+   ],
+   "subsets": [
+    "arabic",
+    "cyrillic-ext",
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700
+   ],
+   "styles": [
+    "normal"
+   ],
+   "axes": {},
+   "css_files": [
+    "100.css",
+    "200.css",
+    "300.css",
+    "400.css",
+    "500.css",
+    "600.css",
+    "700.css",
+    "arabic-100.css",
+    "arabic-200.css",
+    "arabic-300.css",
+    "arabic-400.css",
+    "arabic-500.css",
+    "arabic-600.css",
+    "arabic-700.css",
+    "arabic.css",
+    "cyrillic-ext-100.css",
+    "cyrillic-ext-200.css",
+    "cyrillic-ext-300.css",
+    "cyrillic-ext-400.css",
+    "cyrillic-ext-500.css",
+    "cyrillic-ext-600.css",
+    "cyrillic-ext-700.css",
+    "cyrillic-ext.css",
+    "index.css",
+    "latin-100.css",
+    "latin-200.css",
+    "latin-300.css",
+    "latin-400.css",
+    "latin-500.css",
+    "latin-600.css",
+    "latin-700.css",
+    "latin-ext-100.css",
+    "latin-ext-200.css",
+    "latin-ext-300.css",
+    "latin-ext-400.css",
+    "latin-ext-500.css",
+    "latin-ext-600.css",
+    "latin-ext-700.css",
+    "latin-ext.css",
+    "latin.css"
+   ],
+   "recommended_css": [
+    "100.css",
+    "200.css",
+    "300.css",
+    "400.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Vazirmatn",
+   "slug": "vazirmatn",
+   "package": "@fontsource-variable/vazirmatn",
+   "variable": true,
+   "category": "sans-serif",
+   "roles": [
+    "local"
+   ],
+   "tags": [
+    "persian",
+    "arabic"
+   ],
+   "subsets": [
+    "arabic",
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "normal"
+   ],
+   "axes": {
+    "wght": [
+     100.0,
+     900.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "index.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Noto Sans Hebrew",
+   "slug": "noto-sans-hebrew",
+   "package": "@fontsource-variable/noto-sans-hebrew",
+   "variable": true,
+   "category": "sans-serif",
+   "roles": [
+    "local"
+   ],
+   "tags": [
+    "hebrew"
+   ],
+   "subsets": [
+    "cyrillic-ext",
+    "greek-ext",
+    "hebrew",
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "normal"
+   ],
+   "axes": {
+    "wdth": [
+     62.5,
+     100.0
+    ],
+    "wght": [
+     100.0,
+     900.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "standard.css",
+    "wdth.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "standard.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Noto Sans Devanagari",
+   "slug": "noto-sans-devanagari",
+   "package": "@fontsource-variable/noto-sans-devanagari",
+   "variable": true,
+   "category": "sans-serif",
+   "roles": [
+    "local"
+   ],
+   "tags": [
+    "devanagari",
+    "hindi"
+   ],
+   "subsets": [
+    "devanagari",
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "normal"
+   ],
+   "axes": {
+    "wdth": [
+     62.5,
+     100.0
+    ],
+    "wght": [
+     100.0,
+     900.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "standard.css",
+    "wdth.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "standard.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Noto Sans Thai",
+   "slug": "noto-sans-thai",
+   "package": "@fontsource-variable/noto-sans-thai",
+   "variable": true,
+   "category": "sans-serif",
+   "roles": [
+    "local"
+   ],
+   "tags": [
+    "thai"
+   ],
+   "subsets": [
+    "latin",
+    "latin-ext",
+    "thai"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "normal"
+   ],
+   "axes": {
+    "wdth": [
+     62.5,
+     100.0
+    ],
+    "wght": [
+     100.0,
+     900.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "standard.css",
+    "wdth.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "standard.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Noto Sans Bengali",
+   "slug": "noto-sans-bengali",
+   "package": "@fontsource-variable/noto-sans-bengali",
+   "variable": true,
+   "category": "sans-serif",
+   "roles": [
+    "local"
+   ],
+   "tags": [
+    "bengali"
+   ],
+   "subsets": [
+    "bengali",
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "normal"
+   ],
+   "axes": {
+    "wdth": [
+     62.5,
+     100.0
+    ],
+    "wght": [
+     100.0,
+     900.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "standard.css",
+    "wdth.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "standard.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  },
+  {
+   "family": "Noto Sans Ethiopic",
+   "slug": "noto-sans-ethiopic",
+   "package": "@fontsource-variable/noto-sans-ethiopic",
+   "variable": true,
+   "category": "sans-serif",
+   "roles": [
+    "local"
+   ],
+   "tags": [
+    "ethiopic",
+    "amharic"
+   ],
+   "subsets": [
+    "ethiopic",
+    "latin",
+    "latin-ext"
+   ],
+   "weights": [
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900
+   ],
+   "styles": [
+    "normal"
+   ],
+   "axes": {
+    "wdth": [
+     62.5,
+     100.0
+    ],
+    "wght": [
+     100.0,
+     900.0
+    ]
+   },
+   "css_files": [
+    "index.css",
+    "standard.css",
+    "wdth.css",
+    "wght.css"
+   ],
+   "recommended_css": [
+    "standard.css"
+   ],
+   "license": "OFL-1.1",
+   "overused": false
+  }
+ ]
+}

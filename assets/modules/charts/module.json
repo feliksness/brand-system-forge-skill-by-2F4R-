@@ -1,0 +1,12 @@
+{
+  "name": "charts",
+  "title": "Charts & infographics",
+  "version": "1.0.0",
+  "description": "Dependency-free accessible SVG chart library <p>-charts.js (bar, line, area, donut/pie, KPI, sparkline, progress, gauge, timeline, table, funnel, process, calendar, map placeholder, org chart, stat, compare) styled by the DNA, palette snapped to 3:1 per theme, demo page, rules and previews; skipped when the profile has no dataviz.",
+  "depends": [],
+  "order": 45,
+  "run": ["node", "build.js"],
+  "outputs": ["DATA-VIZ/", "SOURCE/JS/{p}-charts.js", "SOURCE/CSS/{p}-charts.css", "SOURCE/JSON/charts.json"],
+  "lite": true,
+  "seconds": 10
+}
